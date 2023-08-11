@@ -15,22 +15,22 @@
     ellipse at center,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 19px;
-  height: 19px;
-  left: 94vw;
-  bottom: 92vh;
-  -webkit-animation: move1 infinite 3s;
-  animation: move1 infinite 3s;
+  width: 30px;
+  height: 30px;
+  left: 92vw;
+  bottom: 91vh;
+  -webkit-animation: move1 infinite 13s;
+  animation: move1 infinite 13s;
 }
 @-webkit-keyframes move1 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 26vh;
-    transform: translate(37px, 0);
+    bottom: 5vh;
+    transform: translate(-30px, 0);
     opacity: 0;
   }
 }
@@ -39,8 +39,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 26vh;
-    transform: translate(37px, 0);
+    bottom: 5vh;
+    transform: translate(-30px, 0);
     opacity: 0;
   }
 }
@@ -49,12 +49,12 @@
     ellipse at top right,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 17px;
-  height: 17px;
-  left: 72vw;
-  bottom: 13vh;
+  width: 8px;
+  height: 8px;
+  left: 8vw;
+  bottom: 17vh;
   -webkit-animation: move2 infinite 4s;
   animation: move2 infinite 4s;
 }
@@ -63,8 +63,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 29vh;
-    transform: translate(81px, 0);
+    bottom: 83vh;
+    transform: translate(123px, 0);
     opacity: 0;
   }
 }
@@ -73,8 +73,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 29vh;
-    transform: translate(81px, 0);
+    bottom: 83vh;
+    transform: translate(123px, 0);
     opacity: 0;
   }
 }
@@ -83,22 +83,22 @@
     ellipse at center,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 10px;
-  height: 10px;
-  left: 97vw;
-  bottom: 16vh;
-  -webkit-animation: move3 infinite 3s;
-  animation: move3 infinite 3s;
+  width: 39px;
+  height: 39px;
+  left: 78vw;
+  bottom: 7vh;
+  -webkit-animation: move3 infinite 13s;
+  animation: move3 infinite 13s;
 }
 @-webkit-keyframes move3 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 56vh;
-    transform: translate(143px, 0);
+    bottom: 53vh;
+    transform: translate(-34px, 0);
     opacity: 0;
   }
 }
@@ -107,8 +107,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 56vh;
-    transform: translate(143px, 0);
+    bottom: 53vh;
+    transform: translate(-34px, 0);
     opacity: 0;
   }
 }
@@ -117,22 +117,22 @@
     ellipse at top right,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 11px;
-  height: 11px;
-  left: 45vw;
-  bottom: 42vh;
-  -webkit-animation: move4 infinite 10s;
-  animation: move4 infinite 10s;
+  width: 14px;
+  height: 14px;
+  left: 66vw;
+  bottom: 31vh;
+  -webkit-animation: move4 infinite 13s;
+  animation: move4 infinite 13s;
 }
 @-webkit-keyframes move4 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 21vh;
-    transform: translate(-21px, 0);
+    bottom: 10vh;
+    transform: translate(90px, 0);
     opacity: 0;
   }
 }
@@ -141,8 +141,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 21vh;
-    transform: translate(-21px, 0);
+    bottom: 10vh;
+    transform: translate(90px, 0);
     opacity: 0;
   }
 }
@@ -151,12 +151,12 @@
     ellipse at center,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 11px;
-  height: 11px;
-  left: 68vw;
-  bottom: 79vh;
+  width: 26px;
+  height: 26px;
+  left: 51vw;
+  bottom: 66vh;
   -webkit-animation: move5 infinite 14s;
   animation: move5 infinite 14s;
 }
@@ -165,8 +165,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 98vh;
-    transform: translate(-13px, 0);
+    bottom: 52vh;
+    transform: translate(15px, 0);
     opacity: 0;
   }
 }
@@ -175,8 +175,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 98vh;
-    transform: translate(-13px, 0);
+    bottom: 52vh;
+    transform: translate(15px, 0);
     opacity: 0;
   }
 }
@@ -185,22 +185,22 @@
     ellipse at top right,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 12px;
-  height: 12px;
-  left: 76vw;
-  bottom: 80vh;
-  -webkit-animation: move6 infinite 7s;
-  animation: move6 infinite 7s;
+  width: 16px;
+  height: 16px;
+  left: 53vw;
+  bottom: 54vh;
+  -webkit-animation: move6 infinite 9s;
+  animation: move6 infinite 9s;
 }
 @-webkit-keyframes move6 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 87vh;
-    transform: translate(79px, 0);
+    bottom: 68vh;
+    transform: translate(86px, 0);
     opacity: 0;
   }
 }
@@ -209,8 +209,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 87vh;
-    transform: translate(79px, 0);
+    bottom: 68vh;
+    transform: translate(86px, 0);
     opacity: 0;
   }
 }
@@ -219,22 +219,22 @@
     ellipse at center,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 11px;
-  height: 11px;
-  left: 83vw;
-  bottom: 59vh;
-  -webkit-animation: move7 infinite 12s;
-  animation: move7 infinite 12s;
+  width: 37px;
+  height: 37px;
+  left: 5vw;
+  bottom: 20vh;
+  -webkit-animation: move7 infinite 13s;
+  animation: move7 infinite 13s;
 }
 @-webkit-keyframes move7 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 20vh;
-    transform: translate(116px, 0);
+    bottom: 54vh;
+    transform: translate(120px, 0);
     opacity: 0;
   }
 }
@@ -243,8 +243,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 20vh;
-    transform: translate(116px, 0);
+    bottom: 54vh;
+    transform: translate(120px, 0);
     opacity: 0;
   }
 }
@@ -253,12 +253,12 @@
     ellipse at top right,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 14px;
-  height: 14px;
-  left: 81vw;
-  bottom: 72vh;
+  width: 19px;
+  height: 19px;
+  left: 51vw;
+  bottom: 81vh;
   -webkit-animation: move8 infinite 4s;
   animation: move8 infinite 4s;
 }
@@ -267,8 +267,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 71vh;
-    transform: translate(-73px, 0);
+    bottom: 65vh;
+    transform: translate(146px, 0);
     opacity: 0;
   }
 }
@@ -277,8 +277,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 71vh;
-    transform: translate(-73px, 0);
+    bottom: 65vh;
+    transform: translate(146px, 0);
     opacity: 0;
   }
 }
@@ -287,22 +287,22 @@
     ellipse at center,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 17px;
-  height: 17px;
-  left: 82vw;
-  bottom: 64vh;
-  -webkit-animation: move9 infinite 12s;
-  animation: move9 infinite 12s;
+  width: 52px;
+  height: 52px;
+  left: 50vw;
+  bottom: 6vh;
+  -webkit-animation: move9 infinite 13s;
+  animation: move9 infinite 13s;
 }
 @-webkit-keyframes move9 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 57vh;
-    transform: translate(104px, 0);
+    bottom: 59vh;
+    transform: translate(52px, 0);
     opacity: 0;
   }
 }
@@ -311,8 +311,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 57vh;
-    transform: translate(104px, 0);
+    bottom: 59vh;
+    transform: translate(52px, 0);
     opacity: 0;
   }
 }
@@ -321,22 +321,22 @@
     ellipse at top right,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 16px;
-  height: 16px;
-  left: 28vw;
-  bottom: 3vh;
-  -webkit-animation: move10 infinite 13s;
-  animation: move10 infinite 13s;
+  width: 28px;
+  height: 28px;
+  left: 35vw;
+  bottom: 37vh;
+  -webkit-animation: move10 infinite 15s;
+  animation: move10 infinite 15s;
 }
 @-webkit-keyframes move10 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 88vh;
-    transform: translate(-1px, 0);
+    bottom: 91vh;
+    transform: translate(-39px, 0);
     opacity: 0;
   }
 }
@@ -345,8 +345,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 88vh;
-    transform: translate(-1px, 0);
+    bottom: 91vh;
+    transform: translate(-39px, 0);
     opacity: 0;
   }
 }
@@ -355,22 +355,22 @@
     ellipse at center,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 20px;
-  height: 20px;
-  left: 53vw;
-  bottom: 69vh;
-  -webkit-animation: move11 infinite 12s;
-  animation: move11 infinite 12s;
+  width: 56px;
+  height: 56px;
+  left: 76vw;
+  bottom: 8vh;
+  -webkit-animation: move11 infinite 9s;
+  animation: move11 infinite 9s;
 }
 @-webkit-keyframes move11 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 63vh;
-    transform: translate(16px, 0);
+    bottom: 51vh;
+    transform: translate(116px, 0);
     opacity: 0;
   }
 }
@@ -379,8 +379,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 63vh;
-    transform: translate(16px, 0);
+    bottom: 51vh;
+    transform: translate(116px, 0);
     opacity: 0;
   }
 }
@@ -389,22 +389,22 @@
     ellipse at top right,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
   width: 15px;
   height: 15px;
-  left: 29vw;
-  bottom: 4vh;
-  -webkit-animation: move12 infinite 6s;
-  animation: move12 infinite 6s;
+  left: 86vw;
+  bottom: 98vh;
+  -webkit-animation: move12 infinite 10s;
+  animation: move12 infinite 10s;
 }
 @-webkit-keyframes move12 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 9vh;
-    transform: translate(-6px, 0);
+    bottom: 56vh;
+    transform: translate(171px, 0);
     opacity: 0;
   }
 }
@@ -413,8 +413,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 9vh;
-    transform: translate(-6px, 0);
+    bottom: 56vh;
+    transform: translate(171px, 0);
     opacity: 0;
   }
 }
@@ -423,22 +423,22 @@
     ellipse at center,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 18px;
-  height: 18px;
-  left: 37vw;
-  bottom: 8vh;
-  -webkit-animation: move13 infinite 15s;
-  animation: move13 infinite 15s;
+  width: 24px;
+  height: 24px;
+  left: 94vw;
+  bottom: 19vh;
+  -webkit-animation: move13 infinite 12s;
+  animation: move13 infinite 12s;
 }
 @-webkit-keyframes move13 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 53vh;
-    transform: translate(-84px, 0);
+    bottom: 70vh;
+    transform: translate(112px, 0);
     opacity: 0;
   }
 }
@@ -447,8 +447,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 53vh;
-    transform: translate(-84px, 0);
+    bottom: 70vh;
+    transform: translate(112px, 0);
     opacity: 0;
   }
 }
@@ -457,22 +457,22 @@
     ellipse at top right,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 16px;
-  height: 16px;
-  left: 65vw;
-  bottom: 57vh;
-  -webkit-animation: move14 infinite 11s;
-  animation: move14 infinite 11s;
+  width: 29px;
+  height: 29px;
+  left: 87vw;
+  bottom: 51vh;
+  -webkit-animation: move14 infinite 3s;
+  animation: move14 infinite 3s;
 }
 @-webkit-keyframes move14 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 10vh;
-    transform: translate(73px, 0);
+    bottom: 1vh;
+    transform: translate(-31px, 0);
     opacity: 0;
   }
 }
@@ -481,8 +481,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 10vh;
-    transform: translate(73px, 0);
+    bottom: 1vh;
+    transform: translate(-31px, 0);
     opacity: 0;
   }
 }
@@ -491,22 +491,22 @@
     ellipse at center,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 15px;
-  height: 15px;
-  left: 53vw;
-  bottom: 85vh;
-  -webkit-animation: move15 infinite 4s;
-  animation: move15 infinite 4s;
+  width: 52px;
+  height: 52px;
+  left: 65vw;
+  bottom: 28vh;
+  -webkit-animation: move15 infinite 6s;
+  animation: move15 infinite 6s;
 }
 @-webkit-keyframes move15 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 81vh;
-    transform: translate(147px, 0);
+    bottom: 13vh;
+    transform: translate(158px, 0);
     opacity: 0;
   }
 }
@@ -515,8 +515,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 81vh;
-    transform: translate(147px, 0);
+    bottom: 13vh;
+    transform: translate(158px, 0);
     opacity: 0;
   }
 }
@@ -525,22 +525,22 @@
     ellipse at top right,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 10px;
-  height: 10px;
-  left: 3vw;
-  bottom: 77vh;
-  -webkit-animation: move16 infinite 8s;
-  animation: move16 infinite 8s;
+  width: 30px;
+  height: 30px;
+  left: 10vw;
+  bottom: 27vh;
+  -webkit-animation: move16 infinite 9s;
+  animation: move16 infinite 9s;
 }
 @-webkit-keyframes move16 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 25vh;
-    transform: translate(178px, 0);
+    bottom: 88vh;
+    transform: translate(77px, 0);
     opacity: 0;
   }
 }
@@ -549,8 +549,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 25vh;
-    transform: translate(178px, 0);
+    bottom: 88vh;
+    transform: translate(77px, 0);
     opacity: 0;
   }
 }
@@ -559,22 +559,22 @@
     ellipse at center,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 17px;
-  height: 17px;
-  left: 25vw;
-  bottom: 54vh;
-  -webkit-animation: move17 infinite 6s;
-  animation: move17 infinite 6s;
+  width: 19px;
+  height: 19px;
+  left: 13vw;
+  bottom: 50vh;
+  -webkit-animation: move17 infinite 12s;
+  animation: move17 infinite 12s;
 }
 @-webkit-keyframes move17 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 35vh;
-    transform: translate(-19px, 0);
+    bottom: 38vh;
+    transform: translate(0px, 0);
     opacity: 0;
   }
 }
@@ -583,8 +583,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 35vh;
-    transform: translate(-19px, 0);
+    bottom: 38vh;
+    transform: translate(0px, 0);
     opacity: 0;
   }
 }
@@ -593,12 +593,12 @@
     ellipse at top right,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 21px;
-  height: 21px;
-  left: 100vw;
-  bottom: 94vh;
+  width: 44px;
+  height: 44px;
+  left: 17vw;
+  bottom: 23vh;
   -webkit-animation: move18 infinite 10s;
   animation: move18 infinite 10s;
 }
@@ -607,8 +607,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 96vh;
-    transform: translate(137px, 0);
+    bottom: 44vh;
+    transform: translate(-44px, 0);
     opacity: 0;
   }
 }
@@ -617,8 +617,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 96vh;
-    transform: translate(137px, 0);
+    bottom: 44vh;
+    transform: translate(-44px, 0);
     opacity: 0;
   }
 }
@@ -627,22 +627,22 @@
     ellipse at center,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 21px;
-  height: 21px;
-  left: 50vw;
-  bottom: 17vh;
-  -webkit-animation: move19 infinite 12s;
-  animation: move19 infinite 12s;
+  width: 37px;
+  height: 37px;
+  left: 48vw;
+  bottom: 90vh;
+  -webkit-animation: move19 infinite 3s;
+  animation: move19 infinite 3s;
 }
 @-webkit-keyframes move19 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 79vh;
-    transform: translate(-9px, 0);
+    bottom: 29vh;
+    transform: translate(-33px, 0);
     opacity: 0;
   }
 }
@@ -651,8 +651,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 79vh;
-    transform: translate(-9px, 0);
+    bottom: 29vh;
+    transform: translate(-33px, 0);
     opacity: 0;
   }
 }
@@ -661,22 +661,22 @@
     ellipse at top right,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 19px;
-  height: 19px;
-  left: 74vw;
-  bottom: 53vh;
-  -webkit-animation: move20 infinite 12s;
-  animation: move20 infinite 12s;
+  width: 43px;
+  height: 43px;
+  left: 2vw;
+  bottom: 48vh;
+  -webkit-animation: move20 infinite 10s;
+  animation: move20 infinite 10s;
 }
 @-webkit-keyframes move20 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 3vh;
-    transform: translate(-20px, 0);
+    bottom: 92vh;
+    transform: translate(91px, 0);
     opacity: 0;
   }
 }
@@ -685,8 +685,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 3vh;
-    transform: translate(-20px, 0);
+    bottom: 92vh;
+    transform: translate(91px, 0);
     opacity: 0;
   }
 }
@@ -695,22 +695,22 @@
     ellipse at center,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 20px;
-  height: 20px;
-  left: 79vw;
-  bottom: 95vh;
-  -webkit-animation: move21 infinite 9s;
-  animation: move21 infinite 9s;
+  width: 50px;
+  height: 50px;
+  left: 5vw;
+  bottom: 12vh;
+  -webkit-animation: move21 infinite 3s;
+  animation: move21 infinite 3s;
 }
 @-webkit-keyframes move21 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 30vh;
-    transform: translate(128px, 0);
+    bottom: 66vh;
+    transform: translate(32px, 0);
     opacity: 0;
   }
 }
@@ -719,8 +719,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 30vh;
-    transform: translate(128px, 0);
+    bottom: 66vh;
+    transform: translate(32px, 0);
     opacity: 0;
   }
 }
@@ -729,22 +729,22 @@
     ellipse at top right,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 10px;
-  height: 10px;
-  left: 98vw;
-  bottom: 9vh;
-  -webkit-animation: move22 infinite 14s;
-  animation: move22 infinite 14s;
+  width: 44px;
+  height: 44px;
+  left: 19vw;
+  bottom: 24vh;
+  -webkit-animation: move22 infinite 13s;
+  animation: move22 infinite 13s;
 }
 @-webkit-keyframes move22 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 56vh;
-    transform: translate(-63px, 0);
+    bottom: 27vh;
+    transform: translate(25px, 0);
     opacity: 0;
   }
 }
@@ -753,8 +753,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 56vh;
-    transform: translate(-63px, 0);
+    bottom: 27vh;
+    transform: translate(25px, 0);
     opacity: 0;
   }
 }
@@ -763,22 +763,22 @@
     ellipse at center,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 8px;
-  height: 8px;
-  left: 55vw;
-  bottom: 97vh;
-  -webkit-animation: move23 infinite 9s;
-  animation: move23 infinite 9s;
+  width: 31px;
+  height: 31px;
+  left: 48vw;
+  bottom: 45vh;
+  -webkit-animation: move23 infinite 15s;
+  animation: move23 infinite 15s;
 }
 @-webkit-keyframes move23 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 66vh;
-    transform: translate(181px, 0);
+    bottom: 36vh;
+    transform: translate(130px, 0);
     opacity: 0;
   }
 }
@@ -787,8 +787,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 66vh;
-    transform: translate(181px, 0);
+    bottom: 36vh;
+    transform: translate(130px, 0);
     opacity: 0;
   }
 }
@@ -797,22 +797,22 @@
     ellipse at top right,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 18px;
-  height: 18px;
-  left: 16vw;
-  bottom: 56vh;
-  -webkit-animation: move24 infinite 13s;
-  animation: move24 infinite 13s;
+  width: 58px;
+  height: 58px;
+  left: 34vw;
+  bottom: 96vh;
+  -webkit-animation: move24 infinite 6s;
+  animation: move24 infinite 6s;
 }
 @-webkit-keyframes move24 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 10vh;
-    transform: translate(192px, 0);
+    bottom: 36vh;
+    transform: translate(120px, 0);
     opacity: 0;
   }
 }
@@ -821,8 +821,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 10vh;
-    transform: translate(192px, 0);
+    bottom: 36vh;
+    transform: translate(120px, 0);
     opacity: 0;
   }
 }
@@ -831,22 +831,22 @@
     ellipse at center,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 15px;
-  height: 15px;
-  left: 2vw;
-  bottom: 24vh;
-  -webkit-animation: move25 infinite 6s;
-  animation: move25 infinite 6s;
+  width: 51px;
+  height: 51px;
+  left: 38vw;
+  bottom: 49vh;
+  -webkit-animation: move25 infinite 10s;
+  animation: move25 infinite 10s;
 }
 @-webkit-keyframes move25 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 24vh;
-    transform: translate(-93px, 0);
+    bottom: 18vh;
+    transform: translate(-25px, 0);
     opacity: 0;
   }
 }
@@ -855,8 +855,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 24vh;
-    transform: translate(-93px, 0);
+    bottom: 18vh;
+    transform: translate(-25px, 0);
     opacity: 0;
   }
 }
@@ -865,22 +865,22 @@
     ellipse at top right,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 19px;
-  height: 19px;
-  left: 78vw;
-  bottom: 52vh;
-  -webkit-animation: move26 infinite 6s;
-  animation: move26 infinite 6s;
+  width: 40px;
+  height: 40px;
+  left: 16vw;
+  bottom: 28vh;
+  -webkit-animation: move26 infinite 13s;
+  animation: move26 infinite 13s;
 }
 @-webkit-keyframes move26 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 7vh;
-    transform: translate(-20px, 0);
+    bottom: 17vh;
+    transform: translate(117px, 0);
     opacity: 0;
   }
 }
@@ -889,8 +889,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 7vh;
-    transform: translate(-20px, 0);
+    bottom: 17vh;
+    transform: translate(117px, 0);
     opacity: 0;
   }
 }
@@ -899,22 +899,22 @@
     ellipse at center,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 18px;
-  height: 18px;
-  left: 58vw;
-  bottom: 50vh;
-  -webkit-animation: move27 infinite 4s;
-  animation: move27 infinite 4s;
+  width: 20px;
+  height: 20px;
+  left: 7vw;
+  bottom: 89vh;
+  -webkit-animation: move27 infinite 15s;
+  animation: move27 infinite 15s;
 }
 @-webkit-keyframes move27 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 83vh;
-    transform: translate(179px, 0);
+    bottom: 54vh;
+    transform: translate(117px, 0);
     opacity: 0;
   }
 }
@@ -923,8 +923,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 83vh;
-    transform: translate(179px, 0);
+    bottom: 54vh;
+    transform: translate(117px, 0);
     opacity: 0;
   }
 }
@@ -933,22 +933,22 @@
     ellipse at top right,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 18px;
-  height: 18px;
-  left: 82vw;
-  bottom: 54vh;
-  -webkit-animation: move28 infinite 10s;
-  animation: move28 infinite 10s;
+  width: 28px;
+  height: 28px;
+  left: 64vw;
+  bottom: 51vh;
+  -webkit-animation: move28 infinite 9s;
+  animation: move28 infinite 9s;
 }
 @-webkit-keyframes move28 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 96vh;
-    transform: translate(9px, 0);
+    bottom: 90vh;
+    transform: translate(142px, 0);
     opacity: 0;
   }
 }
@@ -957,8 +957,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 96vh;
-    transform: translate(9px, 0);
+    bottom: 90vh;
+    transform: translate(142px, 0);
     opacity: 0;
   }
 }
@@ -967,22 +967,22 @@
     ellipse at center,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 16px;
-  height: 16px;
-  left: 20vw;
-  bottom: 76vh;
-  -webkit-animation: move29 infinite 12s;
-  animation: move29 infinite 12s;
+  width: 39px;
+  height: 39px;
+  left: 72vw;
+  bottom: 93vh;
+  -webkit-animation: move29 infinite 3s;
+  animation: move29 infinite 3s;
 }
 @-webkit-keyframes move29 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 60vh;
-    transform: translate(22px, 0);
+    bottom: 61vh;
+    transform: translate(80px, 0);
     opacity: 0;
   }
 }
@@ -991,8 +991,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 60vh;
-    transform: translate(22px, 0);
+    bottom: 61vh;
+    transform: translate(80px, 0);
     opacity: 0;
   }
 }
@@ -1001,22 +1001,22 @@
     ellipse at top right,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 13px;
-  height: 13px;
-  left: 87vw;
-  bottom: 55vh;
-  -webkit-animation: move30 infinite 11s;
-  animation: move30 infinite 11s;
+  width: 39px;
+  height: 39px;
+  left: 97vw;
+  bottom: 68vh;
+  -webkit-animation: move30 infinite 8s;
+  animation: move30 infinite 8s;
 }
 @-webkit-keyframes move30 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 70vh;
-    transform: translate(-57px, 0);
+    bottom: 92vh;
+    transform: translate(166px, 0);
     opacity: 0;
   }
 }
@@ -1025,8 +1025,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 70vh;
-    transform: translate(-57px, 0);
+    bottom: 92vh;
+    transform: translate(166px, 0);
     opacity: 0;
   }
 }
@@ -1035,22 +1035,22 @@
     ellipse at center,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 15px;
-  height: 15px;
-  left: 76vw;
-  bottom: 84vh;
-  -webkit-animation: move31 infinite 15s;
-  animation: move31 infinite 15s;
+  width: 22px;
+  height: 22px;
+  left: 62vw;
+  bottom: 86vh;
+  -webkit-animation: move31 infinite 14s;
+  animation: move31 infinite 14s;
 }
 @-webkit-keyframes move31 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 17vh;
-    transform: translate(53px, 0);
+    bottom: 47vh;
+    transform: translate(40px, 0);
     opacity: 0;
   }
 }
@@ -1059,8 +1059,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 17vh;
-    transform: translate(53px, 0);
+    bottom: 47vh;
+    transform: translate(40px, 0);
     opacity: 0;
   }
 }
@@ -1069,22 +1069,22 @@
     ellipse at top right,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 18px;
-  height: 18px;
-  left: 100vw;
-  bottom: 6vh;
-  -webkit-animation: move32 infinite 4s;
-  animation: move32 infinite 4s;
+  width: 30px;
+  height: 30px;
+  left: 21vw;
+  bottom: 19vh;
+  -webkit-animation: move32 infinite 9s;
+  animation: move32 infinite 9s;
 }
 @-webkit-keyframes move32 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 64vh;
-    transform: translate(91px, 0);
+    bottom: 13vh;
+    transform: translate(-29px, 0);
     opacity: 0;
   }
 }
@@ -1093,8 +1093,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 64vh;
-    transform: translate(91px, 0);
+    bottom: 13vh;
+    transform: translate(-29px, 0);
     opacity: 0;
   }
 }
@@ -1103,22 +1103,22 @@
     ellipse at center,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 15px;
-  height: 15px;
-  left: 16vw;
-  bottom: 14vh;
-  -webkit-animation: move33 infinite 3s;
-  animation: move33 infinite 3s;
+  width: 29px;
+  height: 29px;
+  left: 44vw;
+  bottom: 32vh;
+  -webkit-animation: move33 infinite 9s;
+  animation: move33 infinite 9s;
 }
 @-webkit-keyframes move33 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 91vh;
-    transform: translate(34px, 0);
+    bottom: 30vh;
+    transform: translate(37px, 0);
     opacity: 0;
   }
 }
@@ -1127,8 +1127,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 91vh;
-    transform: translate(34px, 0);
+    bottom: 30vh;
+    transform: translate(37px, 0);
     opacity: 0;
   }
 }
@@ -1137,22 +1137,22 @@
     ellipse at top right,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 19px;
-  height: 19px;
-  left: 59vw;
-  bottom: 99vh;
-  -webkit-animation: move34 infinite 9s;
-  animation: move34 infinite 9s;
+  width: 52px;
+  height: 52px;
+  left: 15vw;
+  bottom: 22vh;
+  -webkit-animation: move34 infinite 10s;
+  animation: move34 infinite 10s;
 }
 @-webkit-keyframes move34 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 52vh;
-    transform: translate(32px, 0);
+    bottom: 37vh;
+    transform: translate(139px, 0);
     opacity: 0;
   }
 }
@@ -1161,8 +1161,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 52vh;
-    transform: translate(32px, 0);
+    bottom: 37vh;
+    transform: translate(139px, 0);
     opacity: 0;
   }
 }
@@ -1171,22 +1171,22 @@
     ellipse at center,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 13px;
-  height: 13px;
-  left: 26vw;
-  bottom: 82vh;
-  -webkit-animation: move35 infinite 5s;
-  animation: move35 infinite 5s;
+  width: 9px;
+  height: 9px;
+  left: 68vw;
+  bottom: 48vh;
+  -webkit-animation: move35 infinite 12s;
+  animation: move35 infinite 12s;
 }
 @-webkit-keyframes move35 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 92vh;
-    transform: translate(196px, 0);
+    bottom: 71vh;
+    transform: translate(-39px, 0);
     opacity: 0;
   }
 }
@@ -1195,8 +1195,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 92vh;
-    transform: translate(196px, 0);
+    bottom: 71vh;
+    transform: translate(-39px, 0);
     opacity: 0;
   }
 }
@@ -1205,22 +1205,22 @@
     ellipse at top right,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 10px;
-  height: 10px;
-  left: 94vw;
-  bottom: 44vh;
-  -webkit-animation: move36 infinite 13s;
-  animation: move36 infinite 13s;
+  width: 49px;
+  height: 49px;
+  left: 39vw;
+  bottom: 56vh;
+  -webkit-animation: move36 infinite 6s;
+  animation: move36 infinite 6s;
 }
 @-webkit-keyframes move36 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 49vh;
-    transform: translate(-18px, 0);
+    bottom: 5vh;
+    transform: translate(130px, 0);
     opacity: 0;
   }
 }
@@ -1229,8 +1229,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 49vh;
-    transform: translate(-18px, 0);
+    bottom: 5vh;
+    transform: translate(130px, 0);
     opacity: 0;
   }
 }
@@ -1239,12 +1239,12 @@
     ellipse at center,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 15px;
-  height: 15px;
-  left: 42vw;
-  bottom: 99vh;
+  width: 29px;
+  height: 29px;
+  left: 36vw;
+  bottom: 24vh;
   -webkit-animation: move37 infinite 14s;
   animation: move37 infinite 14s;
 }
@@ -1253,8 +1253,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 66vh;
-    transform: translate(-22px, 0);
+    bottom: 30vh;
+    transform: translate(37px, 0);
     opacity: 0;
   }
 }
@@ -1263,8 +1263,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 66vh;
-    transform: translate(-22px, 0);
+    bottom: 30vh;
+    transform: translate(37px, 0);
     opacity: 0;
   }
 }
@@ -1273,22 +1273,22 @@
     ellipse at top right,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 11px;
-  height: 11px;
-  left: 93vw;
-  bottom: 91vh;
-  -webkit-animation: move38 infinite 8s;
-  animation: move38 infinite 8s;
+  width: 38px;
+  height: 38px;
+  left: 21vw;
+  bottom: 6vh;
+  -webkit-animation: move38 infinite 6s;
+  animation: move38 infinite 6s;
 }
 @-webkit-keyframes move38 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 25vh;
-    transform: translate(20px, 0);
+    bottom: 6vh;
+    transform: translate(74px, 0);
     opacity: 0;
   }
 }
@@ -1297,8 +1297,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 25vh;
-    transform: translate(20px, 0);
+    bottom: 6vh;
+    transform: translate(74px, 0);
     opacity: 0;
   }
 }
@@ -1307,22 +1307,22 @@
     ellipse at center,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 17px;
-  height: 17px;
-  left: 18vw;
-  bottom: 18vh;
-  -webkit-animation: move39 infinite 3s;
-  animation: move39 infinite 3s;
+  width: 33px;
+  height: 33px;
+  left: 72vw;
+  bottom: 33vh;
+  -webkit-animation: move39 infinite 13s;
+  animation: move39 infinite 13s;
 }
 @-webkit-keyframes move39 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 7vh;
-    transform: translate(72px, 0);
+    bottom: 8vh;
+    transform: translate(116px, 0);
     opacity: 0;
   }
 }
@@ -1331,8 +1331,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 7vh;
-    transform: translate(72px, 0);
+    bottom: 8vh;
+    transform: translate(116px, 0);
     opacity: 0;
   }
 }
@@ -1341,22 +1341,22 @@
     ellipse at top right,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 21px;
-  height: 21px;
-  left: 30vw;
-  bottom: 73vh;
-  -webkit-animation: move40 infinite 9s;
-  animation: move40 infinite 9s;
+  width: 77px;
+  height: 77px;
+  left: 64vw;
+  bottom: 27vh;
+  -webkit-animation: move40 infinite 4s;
+  animation: move40 infinite 4s;
 }
 @-webkit-keyframes move40 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 56vh;
-    transform: translate(-77px, 0);
+    bottom: 98vh;
+    transform: translate(171px, 0);
     opacity: 0;
   }
 }
@@ -1365,8 +1365,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 56vh;
-    transform: translate(-77px, 0);
+    bottom: 98vh;
+    transform: translate(171px, 0);
     opacity: 0;
   }
 }
@@ -1375,22 +1375,22 @@
     ellipse at center,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 39px;
-  height: 39px;
-  left: 20vw;
-  bottom: 4vh;
-  -webkit-animation: move41 infinite 7s;
-  animation: move41 infinite 7s;
+  width: 6px;
+  height: 6px;
+  left: 36vw;
+  bottom: 10vh;
+  -webkit-animation: move41 infinite 14s;
+  animation: move41 infinite 14s;
 }
 @-webkit-keyframes move41 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 0vh;
-    transform: translate(-91px, 0);
+    bottom: 40vh;
+    transform: translate(117px, 0);
     opacity: 0;
   }
 }
@@ -1399,8 +1399,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 0vh;
-    transform: translate(-91px, 0);
+    bottom: 40vh;
+    transform: translate(117px, 0);
     opacity: 0;
   }
 }
@@ -1409,22 +1409,22 @@
     ellipse at top right,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 16px;
-  height: 16px;
-  left: 67vw;
-  bottom: 52vh;
-  -webkit-animation: move42 infinite 13s;
-  animation: move42 infinite 13s;
+  width: 54px;
+  height: 54px;
+  left: 34vw;
+  bottom: 71vh;
+  -webkit-animation: move42 infinite 12s;
+  animation: move42 infinite 12s;
 }
 @-webkit-keyframes move42 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 32vh;
-    transform: translate(48px, 0);
+    bottom: 14vh;
+    transform: translate(139px, 0);
     opacity: 0;
   }
 }
@@ -1433,8 +1433,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 32vh;
-    transform: translate(48px, 0);
+    bottom: 14vh;
+    transform: translate(139px, 0);
     opacity: 0;
   }
 }
@@ -1443,22 +1443,22 @@
     ellipse at center,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 14px;
-  height: 14px;
-  left: 59vw;
-  bottom: 69vh;
-  -webkit-animation: move43 infinite 8s;
-  animation: move43 infinite 8s;
+  width: 40px;
+  height: 40px;
+  left: 82vw;
+  bottom: 57vh;
+  -webkit-animation: move43 infinite 15s;
+  animation: move43 infinite 15s;
 }
 @-webkit-keyframes move43 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 46vh;
-    transform: translate(-32px, 0);
+    bottom: 80vh;
+    transform: translate(150px, 0);
     opacity: 0;
   }
 }
@@ -1467,8 +1467,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 46vh;
-    transform: translate(-32px, 0);
+    bottom: 80vh;
+    transform: translate(150px, 0);
     opacity: 0;
   }
 }
@@ -1477,22 +1477,22 @@
     ellipse at top right,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 20px;
-  height: 20px;
-  left: 80vw;
-  bottom: 31vh;
-  -webkit-animation: move44 infinite 12s;
-  animation: move44 infinite 12s;
+  width: 19px;
+  height: 19px;
+  left: 9vw;
+  bottom: 41vh;
+  -webkit-animation: move44 infinite 13s;
+  animation: move44 infinite 13s;
 }
 @-webkit-keyframes move44 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 50vh;
-    transform: translate(-52px, 0);
+    bottom: 99vh;
+    transform: translate(-50px, 0);
     opacity: 0;
   }
 }
@@ -1501,8 +1501,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 50vh;
-    transform: translate(-52px, 0);
+    bottom: 99vh;
+    transform: translate(-50px, 0);
     opacity: 0;
   }
 }
@@ -1511,22 +1511,22 @@
     ellipse at center,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 20px;
-  height: 20px;
-  left: 85vw;
-  bottom: 75vh;
-  -webkit-animation: move45 infinite 13s;
-  animation: move45 infinite 13s;
+  width: 37px;
+  height: 37px;
+  left: 45vw;
+  bottom: 15vh;
+  -webkit-animation: move45 infinite 10s;
+  animation: move45 infinite 10s;
 }
 @-webkit-keyframes move45 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 9vh;
-    transform: translate(-80px, 0);
+    bottom: 15vh;
+    transform: translate(-28px, 0);
     opacity: 0;
   }
 }
@@ -1535,8 +1535,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 9vh;
-    transform: translate(-80px, 0);
+    bottom: 15vh;
+    transform: translate(-28px, 0);
     opacity: 0;
   }
 }
@@ -1545,22 +1545,22 @@
     ellipse at top right,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 5px;
-  height: 5px;
-  left: 100vw;
-  bottom: 60vh;
-  -webkit-animation: move46 infinite 8s;
-  animation: move46 infinite 8s;
+  width: 29px;
+  height: 29px;
+  left: 89vw;
+  bottom: 100vh;
+  -webkit-animation: move46 infinite 10s;
+  animation: move46 infinite 10s;
 }
 @-webkit-keyframes move46 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 24vh;
-    transform: translate(34px, 0);
+    bottom: 38vh;
+    transform: translate(115px, 0);
     opacity: 0;
   }
 }
@@ -1569,8 +1569,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 24vh;
-    transform: translate(34px, 0);
+    bottom: 38vh;
+    transform: translate(115px, 0);
     opacity: 0;
   }
 }
@@ -1579,22 +1579,22 @@
     ellipse at center,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 14px;
-  height: 14px;
-  left: 16vw;
-  bottom: 39vh;
-  -webkit-animation: move47 infinite 3s;
-  animation: move47 infinite 3s;
+  width: 11px;
+  height: 11px;
+  left: 87vw;
+  bottom: 11vh;
+  -webkit-animation: move47 infinite 6s;
+  animation: move47 infinite 6s;
 }
 @-webkit-keyframes move47 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 9vh;
-    transform: translate(140px, 0);
+    bottom: 39vh;
+    transform: translate(28px, 0);
     opacity: 0;
   }
 }
@@ -1603,8 +1603,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 9vh;
-    transform: translate(140px, 0);
+    bottom: 39vh;
+    transform: translate(28px, 0);
     opacity: 0;
   }
 }
@@ -1613,22 +1613,22 @@
     ellipse at top right,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 16px;
-  height: 16px;
-  left: 56vw;
-  bottom: 67vh;
-  -webkit-animation: move48 infinite 6s;
-  animation: move48 infinite 6s;
+  width: 91px;
+  height: 91px;
+  left: 71vw;
+  bottom: 44vh;
+  -webkit-animation: move48 infinite 15s;
+  animation: move48 infinite 15s;
 }
 @-webkit-keyframes move48 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 92vh;
-    transform: translate(-22px, 0);
+    bottom: 51vh;
+    transform: translate(138px, 0);
     opacity: 0;
   }
 }
@@ -1637,8 +1637,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 92vh;
-    transform: translate(-22px, 0);
+    bottom: 51vh;
+    transform: translate(138px, 0);
     opacity: 0;
   }
 }
@@ -1647,22 +1647,22 @@
     ellipse at center,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 14px;
-  height: 14px;
-  left: 90vw;
-  bottom: 50vh;
-  -webkit-animation: move49 infinite 9s;
-  animation: move49 infinite 9s;
+  width: 60px;
+  height: 60px;
+  left: 32vw;
+  bottom: 9vh;
+  -webkit-animation: move49 infinite 15s;
+  animation: move49 infinite 15s;
 }
 @-webkit-keyframes move49 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 78vh;
-    transform: translate(128px, 0);
+    bottom: 83vh;
+    transform: translate(16px, 0);
     opacity: 0;
   }
 }
@@ -1671,8 +1671,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 78vh;
-    transform: translate(128px, 0);
+    bottom: 83vh;
+    transform: translate(16px, 0);
     opacity: 0;
   }
 }
@@ -1681,22 +1681,22 @@
     ellipse at top right,
     #ffb400 0%,
     #04aa6d 46%,
-    #5f91ff 100%
+    #208c4f 100%
   );
-  width: 13px;
-  height: 13px;
-  left: 56vw;
-  bottom: 34vh;
-  -webkit-animation: move50 infinite 11s;
-  animation: move50 infinite 11s;
+  width: 8px;
+  height: 8px;
+  left: 29vw;
+  bottom: 35vh;
+  -webkit-animation: move50 infinite 15s;
+  animation: move50 infinite 15s;
 }
 @-webkit-keyframes move50 {
   0% {
     bottom: -100px;
   }
   100% {
-    bottom: 97vh;
-    transform: translate(-28px, 0);
+    bottom: 100vh;
+    transform: translate(-15px, 0);
     opacity: 0;
   }
 }
@@ -1705,8 +1705,8 @@
     bottom: -100px;
   }
   100% {
-    bottom: 97vh;
-    transform: translate(-28px, 0);
+    bottom: 100vh;
+    transform: translate(-15px, 0);
     opacity: 0;
   }
 }

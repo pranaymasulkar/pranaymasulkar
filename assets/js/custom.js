@@ -113,6 +113,8 @@ tl.from("#navbar", {
     scale: 1,
 })
 
-tl.from(".bubble", {
-    repete: -1,
+tl.from(".night ", {
+    duration:0.75,
+    opacity:1,
+    delay:0.75,
 })
