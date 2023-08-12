@@ -6,6 +6,30 @@
   --bg-warning-color: #ffb400;
   --bg-black: #000000;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "Rajdhani", sans-serif;
+  cursor: none;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: var(--main-secondary-color);
+  font-family: "Rajdhani", sans-serif;
+  font-size: 15px;
+  color: #fff;
+}
+
+/*  */
+/* ============================== */
+/* Background Animation Section */
+/* ============================== */
+/*  */
+
 #loader {
   height: 100vh;
   width: 100%;
@@ -24,23 +48,66 @@
   backdrop-filter: blur(0px);
   -webkit-backdrop-filter: blur(0px);
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  color: #fff;
-  font-family: "Rajdhani", sans-serif;
-  cursor: none;
+
+/*  */
+/* ============================== */
+/* Background Animation Section */
+/* ============================== */
+/*  */
+
+@media (any-pointer: fine) {
+  .c-cursor {
+    display: block;
+  }
+
+  .c-cursor__inner {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    mix-blend-mode: difference;
+    border-radius: 50%;
+    z-index: 99999;
+  }
+
+  .c-cursor__side {
+    position: absolute;
+    top: 50%;
+    width: 5px;
+    height: 1px;
+    background: #fff;
+    opacity: 0;
+  }
+
+  .c-cursor__side--left {
+    right: calc(100% + 5px);
+  }
+
+  .c-cursor__side--right {
+    left: calc(100% + 5px);
+  }
+
+  .c-cursor__inner--circle {
+    width: 55px;
+    height: 55px;
+    border: 1px solid transparent;
+    background: radial-gradient(
+      ellipse at top right,
+      #ffb400 0%,
+      #04aa6d 46%,
+      #208c4f 100%
+    );
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(255, 180, 0, 1);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(255, 180, 0, 1);
+    box-shadow: 0px 0px 20px 0px rgba(255, 180, 0, 1);
+  }
 }
-html,
-body {
-  height: 100%;
-  width: 100%;
-  background-color: var(--main-secondary-color);
-  font-family: "Rajdhani", sans-serif;
-  font-size: 15px;
-  color: #fff;
-}
+
+/*  */
+/* ============================== */
+/* Background Animation Section */
+/* ============================== */
+/*  */
 #main {
   height: 100%;
   width: 100%;
@@ -55,7 +122,6 @@ body {
 /* ============================== */
 /*  */
 
-/*================== end */
 .body-animtn1 {
   position: fixed;
   height: 200%;
@@ -63,6 +129,7 @@ body {
   transform: rotate(-15deg);
   left: -83%;
   top: -50%;
+  opacity: 0;
   background-color: var(--bg-warning-color);
 }
 .body-animtn2 {
@@ -89,35 +156,13 @@ body {
   backdrop-filter: blur(0.1px);
   -webkit-backdrop-filter: blur(0.1px);
 }
-.hero-back-design1 {
-  position: fixed;
-  height: 200%;
-  width: 100%;
-  transform: rotate(-75deg);
-  right: -83%;
-  top: -50%;
-  background-color: var(--main-primary-color);
-}
-.hero-back-design2 {
-  position: fixed;
-  height: 200%;
-  width: 100%;
-  transform: rotate(-75deg);
-  right: -83%;
-  top: -50%;
-  background-color: var(--main-primary-color);
-  /* From https://css.glass */
-  background: rgba(0, 0, 0, 0.23);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(1px);
-  -webkit-backdrop-filter: blur(1px);
-}
+
 /*  */
 /* ============================== */
 /* Sidebar Nav Section */
 /* ============================== */
 /*  */
+
 .font-a {
   font-family: "Rajdhani", sans-serif;
 }
@@ -145,15 +190,34 @@ body {
   border-radius: 50%;
   background: var(--main-secondary-color);
   cursor: pointer;
+
+  /* From https://css.glass */
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
 }
 #navbar nav .icon-menu .icon-box:hover,
 #navbar nav .icon-menu .icon-box.active {
   background-color: var(--main-primary-color);
 }
-#navbar nav .icon-menu .icon-box i {
-  color: #ddd;
+#navbar nav .icon-menu .icon-box a {
+  margin: 0 auto;
+}
+#navbar nav .icon-menu .icon-box a i {
   font-size: 19px;
   transition: 0.3s;
+  margin: 0 auto;
+  color: var(--bg-warning-color);
+}
+#navbar nav .icon-menu .icon-box:hover a i,
+#navbar nav .icon-menu .icon-box.active a i {
+  font-size: 19px;
+  transition: 0.3s;
+  margin: 0 auto;
+  color: #fff;
 }
 #navbar nav .icon-menu .icon-box h2 {
   z-index: -1;
@@ -180,11 +244,40 @@ body {
   border-radius: 0 30px 30px 0;
   background-color: var(--main-primary-color);
 }
+
 /*  */
 /* ============================== */
 /* Hero Section */
 /* ============================== */
 /*  */
+#Home {
+  position: relative;
+  overflow: hidden;
+}
+#Home .hero-back-design1 {
+  position: absolute;
+  height: 200%;
+  width: 100%;
+  transform: rotate(-75deg);
+  right: -83%;
+  top: -50%;
+  background-color: var(--main-primary-color);
+}
+#Home .hero-back-design2 {
+  position: absolute;
+  height: 200%;
+  width: 100%;
+  transform: rotate(-75deg);
+  right: -83%;
+  top: -50%;
+  background-color: var(--main-primary-color);
+  /* From https://css.glass */
+  background: rgba(0, 0, 0, 0.23);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+}
 .hero-part {
   position: relative;
   padding: 5vw 5vw 5vw;
@@ -195,6 +288,7 @@ body {
   width: 100vw;
   z-index: 2;
 }
+
 .hero-part .hero-image-sec {
   background-image: url(/assets/images/pranay_masulkar2.jpeg);
   background-size: cover;
@@ -251,7 +345,7 @@ body {
   height: 10px;
   width: 40px;
   border-radius: 10px;
-  background-color: var(--main-secondary-color);
+  background-color: var(--main-primary-color);
 }
 .hero-part .hero-part-main .hp-title span {
   color: #fff;
@@ -326,58 +420,44 @@ body {
   background-color: var(--main-primary-color);
 }
 
-/* 
- */
-
-@media (any-pointer: fine) {
-  .c-cursor {
-    display: block;
-  }
-
-  .c-cursor__inner {
-    pointer-events: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    mix-blend-mode: difference;
-    border-radius: 50%;
-    z-index: 50;
-  }
-
-  .c-cursor__side {
-    position: absolute;
-    top: 50%;
-    width: 5px;
-    height: 1px;
-    background: #fff;
-    opacity: 0;
-  }
-
-  .c-cursor__side--left {
-    right: calc(100% + 5px);
-  }
-
-  .c-cursor__side--right {
-    left: calc(100% + 5px);
-  }
-
-  .c-cursor__inner--circle {
-    width: 55px;
-    height: 55px;
-    border: 1px solid transparent;
-    background: radial-gradient(
-      ellipse at top right,
-      #ffb400 0%,
-      #04aa6d 46%,
-      #208c4f 100%
-    );
-    -webkit-box-shadow: 0px 0px 20px 0px rgba(255, 180, 0, 1);
-    -moz-box-shadow: 0px 0px 20px 0px rgba(255, 180, 0, 1);
-    box-shadow: 0px 0px 20px 0px rgba(255, 180, 0, 1);
-  }
-}
-
-/* 
-
-*/
 /*  */
+/* ============================== */
+/* Background Animation Section */
+/* ============================== */
+/*  */
+
+#AboutSection {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+.title-section {
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  padding: 80px 0;
+  text-align: center;
+}
+.title-section h1 {
+  font-size: 56px;
+  font-weight: 900 !important;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0;
+}
+.title-section h1 span {
+  color: var(--main-primary-color);
+}
+.title-bg {
+  font-size: 110px;
+  left: 0;
+  letter-spacing: 10px;
+  line-height: 0.7;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  text-transform: uppercase;
+  font-weight: 800;
+  transform: translateY(-50%);
+  color: hsla(0, 0%, 100%, 0.07);
+}
