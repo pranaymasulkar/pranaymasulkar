@@ -13,7 +13,31 @@ function loadTime() {
 }
 
 
+function ShowMoreSkiil() {
+    let toggleButton = document.querySelector("#ShoSkillsBtn");
+let contentDiv = document.querySelector("#target");
+
+// Add a click event listener to the button
+toggleButton.addEventListener("click", () => {
+    contentDiv.classList.toggle("hidden");
+});
+}
+ShowMoreSkiil();
+
+gsap.to("#target", {
+    transition: .3,
+    delay: 0.2,
+    duration: 1,
+    
+})
+
 var tl = gsap.timeline();
+
+
+
+
+// gsap animation start
+
 
 tl.to("#loader h1", {
     scale: 3,
