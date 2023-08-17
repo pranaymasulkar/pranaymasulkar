@@ -1,483 +1,1026 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Source+Sans+3:wght@200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
+    <title>Unfold &mdash; A onepage portfolio HTML template by Colorlib</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="/assets/css/base.css" />
-    <link rel="stylesheet" href="/assets/css/bubbles.css" />
-    <link rel="stylesheet" href="/assets/css/stars.css" />
-    <link rel="stylesheet" href="/assets/css/style.css" />
-    <title>Document</title>
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="html, css, javascript, jquery" />
+    <meta name="author" content="" />
+
+    <link rel="stylesheet" href="css/vendor/icomoon/style.css" />
+    <link rel="stylesheet" href="css/vendor/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/vendor/animate.min.css" />
+    <link rel="stylesheet" href="css/vendor/aos.css" />
+    <link rel="stylesheet" href="css/vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/vendor/jquery.fancybox.min.css" />
+
+    <!-- Theme Style -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="stylesheet" href="css/mystyle.css" />
   </head>
-  <body>
-    <div id="loader">
-      <h1>Wellcome</h1>
-    </div>
-    <div class="js-cursor">
-      <div class="c-cursor__inner c-cursor__inner--circle js-cursor-inner">
-        <div class="c-cursor__side c-cursor__side--left js-cursor-right"></div>
-        <div class="c-cursor__side c-cursor__side--right js-cursor-left"></div>
+  <body data-spy="scroll" data-target=".site-nav-target" data-offset="200">
+    <nav class="unslate_co--site-mobile-menu">
+      <div class="close-wrap d-flex">
+        <a href="#" class="d-flex ml-auto js-menu-toggle">
+          <span class="close-label">Close</span>
+          <div class="close-times">
+            <span class="bar1"></span>
+            <span class="bar2"></span>
+          </div>
+        </a>
       </div>
-    </div>
-    <main id="main">
-      <!--  -->
-      <div class="c">
-        <div class="night"></div>
-        <div class="canvas"></div>
-      </div>
-      <header id="navbar">
-        <nav>
-          <ul class="icon-menu">
-            <li class="icon-box iconbox1 active">
-              <a href="#Home">
-                <i class="fa fa-home"></i>
-                <h2>Home</h2>
-              </a>
-            </li>
-            <li class="icon-box iconbox2">
-              <a href="#AboutSection">
-                <i class="fa fa-user"></i>
-                <h2>About</h2>
-              </a>
-            </li>
-            <li class="icon-box iconbox3">
-              <a href="#PortFolio">
-                <i class="fa fa-briefcase"></i>
-                <h2>Portfodivo</h2>
-              </a>
-            </li>
-            <li class="icon-box iconbox4">
-              <a href="#">
-                <i class="fa fa-envelope-open"></i>
-                <h2>Contact</h2>
-              </a>
-            </li>
-            <li class="icon-box iconbox5">
-              <a href="#">
-                <i class="fa fa-comments"></i>
-                <h2>Blog</h2>
-              </a>
-            </li>
-          </ul>
+      <div class="site-mobile-inner"></div>
+    </nav>
+
+    <div class="unslate_co--site-wrap">
+      <div class="unslate_co--site-inner">
+        <div class="lines-wrap">
+          <div class="lines-inner">
+            <div class="lines"></div>
+          </div>
+        </div>
+        <!-- END lines -->
+
+        <nav class="unslate_co--site-nav dark site-nav-target">
+          <div class="container">
+            <div
+              class="row align-items-center justify-content-between text-left"
+            >
+              <div class="col-4">
+                <div class="site-logo">
+                  <a
+                    href="index-sidebar-menu.html"
+                    class="unslate_co--site-logo text-uppercase"
+                    >Pranay Masulkar<span>.</span></a
+                  >
+                </div>
+              </div>
+              <div class="col text-right">
+                <ul
+                  class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-none"
+                >
+                  <li class="has-children">
+                    <a href="#home-section" class="nav-link">Home</a>
+                    <ul class="dropdown">
+                      <li>
+                        <a href="index.html">Hero Image BG</a>
+                      </li>
+                      <li>
+                        <a href="index-video.html">Video BG</a>
+                      </li>
+                      <li>
+                        <a href="index-hero-slider.html">Hero Slider</a>
+                      </li>
+                      <li>
+                        <a href="index-sidebar-menu.html">Sidebar Menu</a>
+                      </li>
+                      <li>
+                        <a href="index-right-menu.html">Right Menu</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#portfolio-section" class="nav-link">Portfolio</a>
+                  </li>
+                  <li><a href="#about-section" class="nav-link">About</a></li>
+                  <li>
+                    <a href="#services-section" class="nav-link">Services</a>
+                  </li>
+                  <li><a href="#skills-section" class="nav-link">Skills</a></li>
+                  <li>
+                    <a href="#testimonial-section" class="nav-link"
+                      >Testimonial</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#journal-section" class="nav-link">Journal</a>
+                  </li>
+                  <li>
+                    <a href="#contact-section" class="nav-link">Contact</a>
+                  </li>
+                </ul>
+
+                <a
+                  href="#"
+                  class="burger-toggle-menu js-burger-toggle-menu ml-auto py-4"
+                >
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </a>
+              </div>
+            </div>
+          </div>
         </nav>
-      </header>
+        <!-- END nav -->
 
-      <section id="Home">
-        <div class="body-animtn1"></div>
-        <div class="body-animtn2"></div>
-        <div class="body-animtn3"></div>
-        <!-- <div class="hero-back-design1"></div> -->
-        <div class="hero-back-design2"></div>
-        <div class="hero-part">
-          <div class="hero-part-main">
-            <h4 class="hp-subtitle">wellcome to my side</h4>
-            <h1 class="hp-title">
-              hi, i am <br />
-              pranay Masukar <span>a Developer</span>
-            </h1>
-            <p class="hp-para">
-              👋 Hello, and welcome! I am a Passionate Frontend Developer with
-              over 4+ years of experience in creating captivating user
-              interfaces and seamless web experiences. My journey in the tech
-              industry has been characterized by a fervent passion for coding, a
-              relentless pursuit of excellence, and a deep appreciation for
-              innovative design.
-            </p>
-            <div class="hp-btnbox">
-              <button class="hp-btn" style="cursor: none">
-                <span class="hp-btn-text">more about me</span>
-                <span class="hp-btn-icon fa fa-arrow-right"></span>
-              </button>
+        <div
+          class="cover-v1 jarallax"
+          style="background-image: url('../images/cover_bg.jpg.jpg')"
+          id="home-section"
+        >
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-9 mx-auto text-center">
+                <h1 class="heading gsap-reveal-hero text-capitalize">
+                  FrontEnd Developer
+                </h1>
+                <h2 class="subheading gsap-reveal-hero">
+                  👋 I’m Pranay Masulkar A Passionate Frontend Developer Based
+                  In Nagpur India.
+                </h2>
+              </div>
             </div>
           </div>
-          <div class="hero-image-sec"></div>
+
+          <a href="#portfolio-section" class="mouse-wrap smoothscroll">
+            <span class="mouse">
+              <span class="scroll"></span>
+            </span>
+            <span class="mouse-label">Scroll</span>
+          </a>
         </div>
-      </section>
+        <!-- END .cover-v1 -->
 
-      <section id="AboutSection">
-        <div class="title-section text-start text-sm-center">
-          <h1>ABOUT <span>ME</span></h1>
-          <span class="title-bg">Resume</span>
-        </div>
-
-        <section class="my-details">
-          <div class="mycontainer">
-            <div class="myrow">
-              <div class="mycol-1">
-                <h2 class="Title-Two-Gradient">personal infos</h2>
-                <div>
-                  <ul class="about-list">
-                    <li>
-                      Full Name <span>:</span>
-                      <span>Pranay ambadas masulkar</span>
-                    </li>
-                    <li>Nationality <span>:</span> <span>indian</span></li>
-                    <li>
-                      Email <span>:</span> <span>pranaymasulkar@gmail.com</span>
-                    </li>
-                    <li>Mobile <span>:</span> <span>+91 8624043380</span></li>
-                    <li>Freelance <span>:</span> <span>Available</span></li>
-                    <li>Address <span>:</span> <span>Nagpur, india</span></li>
-                  </ul>
-                </div>
-                <div>
-                  <button class="hp-btn" style="cursor: none">
-                    <span class="hp-btn-text">Download CV</span>
-                    <span class="hp-btn-icon fa fa-download"></span>
-                  </button>
-                </div>
-              </div>
-              <div class="mycol-2">
-                <div class="about">
-                  <div class="box-stats">
-                    <h3>4</h3>
-                    <p>years of <span>experience</span></p>
-                  </div>
-                  <div class="box-stats">
-                    <h3>50</h3>
-                    <p>COMPLETED <span>PROJECTS</span></p>
-                  </div>
-                </div>
-              </div>
+        <div class="unslate_co--section" id="about-section">
+          <div class="container">
+            <div class="section-heading-wrap text-center mb-5">
+              <h2 class="heading-h2 text-center divider">
+                <span class="gsap-reveal">About Me</span>
+              </h2>
+              <span class="gsap-reveal">
+                <img src="images/divider.png" alt="divider" width="76" />
+              </span>
             </div>
-          </div>
-        </section>
 
-        <section class="myskills">
-          <div class="mscontainer">
-            <h2 class="Title-Two-Gradient">my skill's</h2>
-            <div class="mscol1">
-              <div class="skills">
-                <div class="skill">
-                  <div class="skill-name">HTML, HTML5</div>
-                  <div class="skill-bar">
-                    <div
-                      class="skill-percentage"
-                      per="95%"
-                      style="max-width: 95%"
-                    ></div>
-                  </div>
-                </div>
-                <div class="skill">
-                  <div class="skill-name">CSS, CSS3</div>
-                  <div class="skill-bar">
-                    <div
-                      class="skill-percentage"
-                      per="95%"
-                      style="max-width: 95%"
-                    ></div>
-                  </div>
-                </div>
-                <div class="skill">
-                  <div class="skill-name">SCSS</div>
-                  <div class="skill-bar">
-                    <div
-                      class="skill-percentage"
-                      per="90%"
-                      style="max-width: 90%"
-                    ></div>
-                  </div>
-                </div>
-                <div class="skill">
-                  <div class="skill-name">JavaScript</div>
-                  <div class="skill-bar">
-                    <div
-                      class="skill-percentage"
-                      per="70%"
-                      style="max-width: 70%"
-                    ></div>
-                  </div>
-                </div>
-              </div>
-              <div id="target" class="hidden skills">
-                <div class="skill">
-                  <div class="skill-name">React Js</div>
-                  <div class="skill-bar">
-                    <div
-                      class="skill-percentage"
-                      per="70%"
-                      style="max-width: 70%"
-                    ></div>
-                  </div>
-                </div>
-                <div class="skill">
-                  <div class="skill-name">Next Js</div>
-                  <div class="skill-bar">
-                    <div
-                      class="skill-percentage"
-                      per="60%"
-                      style="max-width: 60%"
-                    ></div>
-                  </div>
-                </div>
-                <div class="skill">
-                  <div class="skill-name">Bootstrap</div>
-                  <div class="skill-bar">
-                    <div
-                      class="skill-percentage"
-                      per="85%"
-                      style="max-width: 85%"
-                    ></div>
-                  </div>
-                </div>
-                <div class="skill">
-                  <div class="skill-name">React Bootstrap</div>
-                  <div class="skill-bar">
-                    <div
-                      class="skill-percentage"
-                      per="85%"
-                      style="max-width: 85%"
-                    ></div>
-                  </div>
-                </div>
-                <div class="skill">
-                  <div class="skill-name">Vue Js</div>
-                  <div class="skill-bar">
-                    <div
-                      class="skill-percentage"
-                      per="50%"
-                      style="max-width: 50%"
-                    ></div>
-                  </div>
-                </div>
-                <div class="skill">
-                  <div class="skill-name">Angular Js</div>
-                  <div class="skill-bar">
-                    <div
-                      class="skill-percentage"
-                      per="50%"
-                      style="max-width: 50%"
-                    ></div>
-                  </div>
-                </div>
-                <div class="skill">
-                  <div class="skill-name">TypeScript</div>
-                  <div class="skill-bar">
-                    <div
-                      class="skill-percentage"
-                      per="60%"
-                      style="max-width: 60%"
-                    ></div>
-                  </div>
-                </div>
-                <div class="skill">
-                  <div class="skill-name">JSON</div>
-                  <div class="skill-bar">
-                    <div
-                      class="skill-percentage"
-                      per="70%"
-                      style="max-width: 70%"
-                    ></div>
-                  </div>
-                </div>
-                <div class="skill">
-                  <div class="skill-name">Photoshop, XD</div>
-                  <div class="skill-bar">
-                    <div
-                      class="skill-percentage"
-                      per="50%"
-                      style="max-width: 50%"
-                    ></div>
-                  </div>
-                </div>
-                <div class="skill">
-                  <div class="skill-name">Figma</div>
-                  <div class="skill-bar">
-                    <div
-                      class="skill-percentage"
-                      per="50%"
-                      style="max-width: 50%"
-                    ></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            <button id="ShoSkillsBtn" class="hp-btn" style="cursor: none">
-              <span class="hp-btn-text">show more</span>
-            </button>
-          </div>
-        </section>
-
-        <section class="excontainer">
-          <div class="exrow">
-            <h2 class="Title-Two-Gradient">experiance</h2>
-            <div class="excol1">
-              <div class="exbox">
-                <div class="icon"><i class="fa fa-briefcase"></i></div>
-                <span class="time open-sans-font text-uppercase">
-                  MAR, 2022 - Present</span
-                >
-                <h5 class="poppins-font text-uppercase">
-                  frontend Developer<span class="place open-sans-font"
-                    >InfoVerse</span
+            <div class="row mt-5 justify-content-between">
+              <div class="col-lg-5 pr-lg-5">
+                <h3 class="mb-4 heading-h3">
+                  <span class="gsap-reveal">👋 Hello, and welcome!</span>
+                </h3>
+                <p class="lead gsap-reveal">
+                  I am a Passionate Frontend Developer with over 4+ years of
+                  experience in creating captivating user interfaces and
+                  seamless web experiences.
+                  <!-- <a href="#">live the blind</a> texts. -->
+                </p>
+                <p class="mb-4 gsap-reveal">
+                  My journey in the tech industry has been characterized by a
+                  fervent passion for coding, a relentless pursuit of
+                  excellence, and a deep appreciation for innovative design.
+                </p>
+                <p class="gsap-reveal">
+                  <a href="#" class="btn btn-outline-pill btn-custom-light"
+                    >Download my CV</a
                   >
-                </h5>
-                <p class="open-sans-font">
-                  InfoVerse is bound to be providing blockchain development, and
-                  mainly focuses on developing blockchain smart contracts,
-                  cryptocurrency, dApp, trading platforms, Token Development,
-                  Web Applications, Mobile App Development, and Digital
-                  Marketing.
                 </p>
               </div>
-              <div class="exbox">
-                <div class="icon"><i class="fa fa-briefcase"></i></div>
-                <span class="time open-sans-font text-uppercase">
-                  NOv, 2018 - feb, 2023</span
-                >
-                <h5 class="poppins-font text-uppercase">
-                  Web Developer<span class="place open-sans-font"
-                    >webakruti</span
-                  >
-                </h5>
-                <p class="open-sans-font">
-                  Webakruti is a popular SEO friendly web designing and Web
-                  applications development, mobile app Development, software
-                  development, and Digital Marketing company in Nagpur, India.
-                </p>
-              </div>
-            </div>
-            <h2 class="Title-Two-Gradient">education</h2>
-            <div class="excol1">
-              <div class="exbox">
-                <div class="icon"><i class="fa fa-briefcase"></i></div>
-                <h5 class="poppins-font text-uppercase">
-                  Computer ENGINEERING<span class="place open-sans-font"
-                    >RTMNU, Nagpur</span
-                  >
-                </h5>
-                <p class="open-sans-font">
-                  My engineering experience involves learning and building
-                  skills. From basics to advanced problem-solving, it gives me
-                  technical know-how and creative thinking. Finishing
-                  engineering shows I'm ready for real-life challenges, whether
-                  in more studies or a job. This journey highlights my growth,
-                  flexibility, and dedication to making a difference.
-                </p>
-              </div>
-              <div class="exbox">
-                <div class="icon"><i class="fa fa-briefcase"></i></div>
-
-                <h5 class="poppins-font text-uppercase">
-                  ssc and hsc<span class="place open-sans-font"
-                    >Indutai Memorial High School and Jr College Tumsar</span
-                  >
-                </h5>
-                <p class="open-sans-font">
-                  My schooling journey, from primary to secondary education,
-                  equipped me with knowledge, critical thinking, and strong
-                  interpersonal skills. Graduating marks a milestone, preparing
-                  me for higher studies or the workforce. This education
-                  showcases my growth, resilience, and readiness to contribute
-                  to society.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-      </section>
-
-      <section id="PortFolio">
-        <!-- =========================== -->
-
-        <div class="wrapper">
-          <div class="gallry-container">
-            <input
-              class="checkbox-all"
-              id="all"
-              type="radio"
-              name="checkbox"
-              checked=""
-            />
-            <label for="all">all</label>
-            <input class="checkbox-js" id="js" type="radio" name="checkbox" />
-            <label for="js">javascript</label>
-            <input
-              class="checkbox-react"
-              id="react"
-              type="radio"
-              name="checkbox"
-            />
-            <label for="react">react</label>
-            <input
-              class="checkbox-html"
-              id="html"
-              type="radio"
-              name="checkbox"
-            />
-            <label for="html">HTML/CSS</label>
-            <input class="checkbox-vue" id="vue" type="radio" name="checkbox" />
-            <label for="vue">vue</label>
-            <input
-              class="checkbox-angular"
-              id="angular"
-              type="radio"
-              name="checkbox"
-            />
-            <label for="angular">angular</label>
-            <div class="seperator"></div>
-            <!-- project cards-->
-            <div class="cards">
-              <div class="project js">
-                <a href="#image1" class="wiggle"
-                  ><img src="http://placehold.it/150x150"
-                /></a>
-              </div>
-              <div class="project html"></div>
-              <div class="project react"></div>
-              <div class="project vue"></div>
-              <div class="project angular"></div>
-              <div class="project js"></div>
-              <div class="project html"></div>
-              <div class="project react"></div>
-              <div class="project vue"></div>
-              <div class="project angular"></div>
-              <div class="project js"></div>
-              <div class="project html"></div>
-              <div class="project react"></div>
-              <div class="project vue"></div>
-              <div class="project angular"></div>
-              <div class="project js"></div>
-              <div class="project html"></div>
-              <div class="project react"></div>
-              <div class="project vue"></div>
-              <div class="project angular"></div>
-            </div>
-            <div id="content">
-              <div class="lightbox short-animate" id="image1">
-                <img class="long-animate" src="http://placehold.it/650x650" />
-              </div>
-              <div id="lightbox-controls" class="short-animate">
-                <a id="close-lightbox" class="long-animate" href="#!"
-                  >Close Lightbox</a
-                >
+              <div class="col-lg-6 mb-5 mb-lg-0">
+                <figure class="dotted-bg gsap-reveal-img">
+                  <img
+                    src="images/about_me_pic2.jpg"
+                    alt="Image"
+                    class="img-fluid"
+                  />
+                </figure>
               </div>
             </div>
           </div>
         </div>
-      </section>
-    </main>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-    <script src="/assets/js/script.js"></script>
-    <script src="/assets/js/gsap_scripts.js"></script>
-    <script src="/assets/js/gsapmain.js"></script>
-    <script src="/assets/js/custom.js"></script>
+
+        <div class="unslate_co--section" id="portfolio-section">
+          <div class="container">
+            <div class="relative">
+              <div class="loader-portfolio-wrap">
+                <div class="loader-portfolio"></div>
+              </div>
+            </div>
+            <div id="portfolio-single-holder"></div>
+
+            <div class="portfolio-wrapper">
+              <div
+                class="d-flex align-items-center mb-4 gsap-reveal gsap-reveal-filter"
+              >
+                <h2 class="mr-auto heading-h2">
+                  <span class="gsap-reveal">Portfolio</span>
+                </h2>
+
+                <a
+                  href="#"
+                  class="text-white js-filter d-inline-block d-lg-none"
+                  >Filter</a
+                >
+
+                <div class="filter-wrap">
+                  <div class="filter ml-auto" id="filters">
+                    <a href="#" class="active" data-filter="*">All</a>
+                    <a href="#" data-filter=".web">Web</a>
+                    <a href="#" data-filter=".branding">Branding</a>
+                    <a href="#" data-filter=".illustration">Illustration</a>
+                    <a href="#" data-filter=".packaging">Packaging</a>
+                  </div>
+                </div>
+              </div>
+
+              <div id="posts" class="row gutter-isotope-item">
+                <div
+                  class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2"
+                >
+                  <a
+                    href="portfolio-single-1.html"
+                    class="portfolio-item ajax-load-page isotope-item gsap-reveal-img"
+                    data-id="1"
+                  >
+                    <div class="overlay">
+                      <span class="wrap-icon icon-link2"></span>
+                      <div class="portfolio-item-content">
+                        <h3>Shoe Rebranding</h3>
+                        <p>web, branding</p>
+                      </div>
+                    </div>
+                    <img
+                      src="images/work_1_md.jpg"
+                      class="lazyload img-fluid"
+                      alt="Images"
+                    />
+                  </a>
+                </div>
+                <div
+                  class="item branding packaging illustration col-sm-6 col-md-6 col-lg-4 isotope-mb-2"
+                >
+                  <a
+                    href="portfolio-single-3.html"
+                    class="portfolio-item ajax-load-page item-portrait isotope-item gsap-reveal-img"
+                    data-id="3"
+                  >
+                    <div class="overlay">
+                      <span class="wrap-icon icon-link2"></span>
+                      <div class="portfolio-item-content">
+                        <h3>Reworking</h3>
+                        <p>branding, packaging, illustration</p>
+                      </div>
+                    </div>
+                    <img
+                      src="images/work_2_md.jpg"
+                      class="lazyload img-fluid"
+                      alt="Images"
+                    />
+                  </a>
+                </div>
+
+                <div
+                  class="item branding packaging col-sm-6 col-md-6 col-lg-4 isotope-mb-2"
+                >
+                  <a
+                    href="portfolio-single-4.html"
+                    class="portfolio-item isotope-item gsap-reveal-img ajax-load-page"
+                    data-id="4"
+                  >
+                    <div class="overlay">
+                      <span class="wrap-icon icon-link2"></span>
+                      <div class="portfolio-item-content">
+                        <h3>Modern Building</h3>
+                        <p>branding, packaging</p>
+                      </div>
+                    </div>
+                    <img
+                      src="images/work_3_md.jpg"
+                      class="lazyload img-fluid"
+                      alt="Images"
+                    />
+                  </a>
+                </div>
+
+                <div
+                  class="item web packaging col-sm-6 col-md-6 col-lg-4 isotope-mb-2"
+                >
+                  <a
+                    href="images/work_4_full.jpg"
+                    class="portfolio-item isotope-item gsap-reveal-img"
+                    data-fancybox="gallery"
+                    data-caption="Watch"
+                  >
+                    <div class="overlay">
+                      <span class="wrap-icon icon-photo2"></span>
+                      <div class="portfolio-item-content">
+                        <h3>Watch</h3>
+                        <p>web, packaging</p>
+                      </div>
+                    </div>
+                    <img
+                      src="images/work_4_full.jpg"
+                      class="lazyload img-fluid"
+                      alt="Images"
+                    />
+                  </a>
+                </div>
+
+                <div
+                  class="item illustration packaging col-sm-6 col-md-6 col-lg-4 isotope-mb-2"
+                >
+                  <a
+                    href="images/work_5_md.jpg"
+                    class="portfolio-item isotope-item gsap-reveal-img"
+                    data-fancybox="gallery"
+                    data-caption="Shoe Rebranding"
+                  >
+                    <div class="overlay">
+                      <span class="wrap-icon icon-photo2"></span>
+                      <div class="portfolio-item-content">
+                        <h3>Shoe Rebranding</h3>
+                        <p>illustration, packaging</p>
+                      </div>
+                    </div>
+                    <img
+                      src="images/work_5_md.jpg"
+                      class="lazyload img-fluid"
+                      alt="Images"
+                    />
+                  </a>
+                </div>
+
+                <div
+                  class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2"
+                >
+                  <a
+                    href="portfolio-single-2.html"
+                    class="portfolio-item ajax-load-page item-portrait isotope-item gsap-reveal-img"
+                    data-id="2"
+                  >
+                    <div class="overlay">
+                      <span class="wrap-icon icon-link2"></span>
+                      <div class="portfolio-item-content">
+                        <h3>Reshape</h3>
+                        <p>web, branding</p>
+                      </div>
+                    </div>
+                    <img
+                      src="images/work_6_md.jpg"
+                      class="lazyload img-fluid"
+                      alt="Images"
+                    />
+                  </a>
+                </div>
+
+                <div
+                  class="item branding packaging col-sm-6 col-md-6 col-lg-4 isotope-mb-2"
+                >
+                  <a
+                    href="images/work_7_a_md.jpg"
+                    class="portfolio-item item-portrait isotope-item gsap-reveal-img"
+                    data-fancybox="gallery"
+                    data-caption="Modern Building"
+                  >
+                    <div class="overlay">
+                      <span class="wrap-icon icon-photo2"></span>
+                      <div class="portfolio-item-content">
+                        <h3>Modern Building</h3>
+                        <p>branding, packaging</p>
+                      </div>
+                    </div>
+                    <img
+                      src="images/work_7_a_md.jpg"
+                      class="lazyload img-fluid"
+                      alt="Images"
+                    />
+                  </a>
+                </div>
+
+                <div
+                  class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2"
+                >
+                  <a
+                    href="https://www.youtube.com/watch?v=mwtbEGNABWU"
+                    class="portfolio-item isotope-item gsap-reveal-img"
+                    data-fancybox="gallery"
+                    data-caption="Showreel 2019"
+                  >
+                    <div class="overlay">
+                      <span class="wrap-icon icon-play_circle_filled"></span>
+                      <div class="portfolio-item-content">
+                        <h3>Showreel 2019</h3>
+                        <p>web, branding</p>
+                      </div>
+                    </div>
+                    <img
+                      src="images/work_8_md.jpg"
+                      class="lazyload img-fluid"
+                      alt="Images"
+                    />
+                  </a>
+                </div>
+
+                <div
+                  class="item web illustration col-sm-6 col-md-6 col-lg-4 isotope-mb-2"
+                >
+                  <a
+                    href="images/work_9_a_md.jpg"
+                    class="portfolio-item isotope-item gsap-reveal-img"
+                    data-fancybox="gallery"
+                    data-caption="Render Packaging"
+                  >
+                    <div class="overlay">
+                      <span class="wrap-icon icon-photo2"></span>
+                      <div class="portfolio-item-content">
+                        <h3>Render Packaging</h3>
+                        <p>web, illustration</p>
+                      </div>
+                    </div>
+                    <img
+                      src="images/work_9_a_md.jpg"
+                      class="lazyload img-fluid"
+                      alt="Images"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="unslate_co--section">
+          <div class="container">
+            <div class="owl-carousel logo-slider">
+              <div class="logo-v1 gsap-reveal">
+                <img
+                  src="images/logo-google.png"
+                  alt="Image"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="logo-v1 gsap-reveal">
+                <img src="images/logo-puma.png" alt="Image" class="img-fluid" />
+              </div>
+              <div class="logo-v1 gsap-reveal">
+                <img
+                  src="images/logo-paypal.png"
+                  alt="Image"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="logo-v1 gsap-reveal">
+                <img
+                  src="images/logo-adobe.png"
+                  alt="Image"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="unslate_co--section" id="services-section">
+          <div class="container">
+            <div class="section-heading-wrap text-center mb-5">
+              <h2 class="heading-h2 text-center divider">
+                <span class="gsap-reveal">My Services</span>
+              </h2>
+              <span class="gsap-reveal"
+                ><img src="images/divider.png" alt="divider" width="76"
+              /></span>
+            </div>
+
+            <div class="row gutter-v3">
+              <div class="col-md-6 col-lg-4 mb-4">
+                <div class="feature-v1" data-aos="fade-up" data-aos-delay="0">
+                  <div class="wrap-icon mb-3">
+                    <img
+                      src="images/svg/001-options.svg"
+                      alt="Image"
+                      width="45"
+                    />
+                  </div>
+                  <h3>
+                    Digital <br />
+                    Strategy
+                  </h3>
+                  <p>
+                    A small river named Duden flows by their place and supplies
+                    it with the necessary regelialia.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 mb-4">
+                <div class="feature-v1" data-aos="fade-up" data-aos-delay="100">
+                  <div class="wrap-icon mb-3">
+                    <img src="images/svg/002-chat.svg" alt="Icon" width="45" />
+                  </div>
+                  <h3>
+                    Web <br />
+                    Design
+                  </h3>
+                  <p>
+                    A small river named Duden flows by their place and supplies
+                    it with the necessary regelialia.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 mb-4">
+                <div class="feature-v1" data-aos="fade-up" data-aos-delay="200">
+                  <div class="wrap-icon mb-3">
+                    <img
+                      src="images/svg/003-contact-book.svg"
+                      alt="Image"
+                      class="img-fluid"
+                      width="45"
+                    />
+                  </div>
+                  <h3>
+                    User <br />
+                    Experience
+                  </h3>
+                  <p>
+                    A small river named Duden flows by their place and supplies
+                    it with the necessary regelialia.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-lg-4 mb-4">
+                <div class="feature-v1" data-aos="fade-up" data-aos-delay="0">
+                  <div class="wrap-icon mb-3">
+                    <img
+                      src="images/svg/004-percentage.svg"
+                      alt="Image"
+                      width="45"
+                    />
+                  </div>
+                  <h3>
+                    Web <br />
+                    Development
+                  </h3>
+                  <p>
+                    A small river named Duden flows by their place and supplies
+                    it with the necessary regelialia.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 mb-4">
+                <div class="feature-v1" data-aos="fade-up" data-aos-delay="100">
+                  <div class="wrap-icon mb-3">
+                    <img src="images/svg/006-goal.svg" alt="Image" width="45" />
+                  </div>
+                  <h3>
+                    WordPress <br />
+                    Solutions
+                  </h3>
+                  <p>
+                    A small river named Duden flows by their place and supplies
+                    it with the necessary regelialia.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 mb-4">
+                <div class="feature-v1" data-aos="fade-up" data-aos-delay="200">
+                  <div class="wrap-icon mb-3">
+                    <img
+                      src="images/svg/005-line-chart.svg"
+                      alt="Image"
+                      width="45"
+                    />
+                  </div>
+                  <h3>
+                    Mobile <br />
+                    Applications
+                  </h3>
+                  <p>
+                    A small river named Duden flows by their place and supplies
+                    it with the necessary regelialia.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="unslate_co--section section-counter" id="skills-section">
+          <div class="container">
+            <div class="section-heading-wrap text-center mb-5">
+              <h2 class="heading-h2 text-center divider">
+                <span class="gsap-reveal">My Skills</span>
+              </h2>
+              <span class="gsap-reveal"
+                ><img src="images/divider.png" alt="divider" width="76"
+              /></span>
+            </div>
+
+            <div class="row pt-5">
+              <div
+                class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3"
+                data-aos="fade-up"
+                data-aos-delay="0"
+              >
+                <div class="counter-v1 text-center">
+                  <span class="number-wrap">
+                    <span class="number number-counter" data-number="90"
+                      >0</span
+                    >
+                    <span class="append-text">%</span>
+                  </span>
+                  <span class="counter-label">WordPress</span>
+                </div>
+              </div>
+              <div
+                class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+                <div class="counter-v1 text-center">
+                  <span class="number-wrap">
+                    <span class="number number-counter" data-number="99"
+                      >0</span
+                    >
+                    <span class="append-text">%</span>
+                  </span>
+                  <span class="counter-label">HTML/CSS</span>
+                </div>
+              </div>
+              <div
+                class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <div class="counter-v1 text-center">
+                  <span class="number-wrap">
+                    <span class="number number-counter" data-number="95"
+                      >0</span
+                    >
+                    <span class="append-text">%</span>
+                  </span>
+                  <span class="counter-label">jQuery</span>
+                </div>
+              </div>
+              <div
+                class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <div class="counter-v1 text-center">
+                  <span class="number-wrap">
+                    <span class="number number-counter" data-number="100"
+                      >0</span
+                    >
+                    <span class="append-text">%</span>
+                  </span>
+                  <span class="counter-label">Design</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END .counter -->
+
+        <div class="unslate_co--section" id="testimonial-section">
+          <div class="container">
+            <div class="section-heading-wrap text-center mb-5">
+              <h2 class="heading-h2 text-center divider">
+                <span class="gsap-reveal">My Happy Clients</span>
+              </h2>
+              <span class="gsap-reveal"
+                ><img src="images/divider.png" alt="divider" width="76"
+              /></span>
+            </div>
+          </div>
+
+          <div class="owl-carousel testimonial-slider" data-aos="fade-up">
+            <div>
+              <div class="testimonial-v1">
+                <div class="testimonial-inner-bg">
+                  <span class="quote">&ldquo;</span>
+                  <blockquote>
+                    Far far away, behind the word mountains, far from the
+                    countries Vokalia and Consonantia, there live the blind
+                    texts. Separated they live in Bookmarksgrove right at the
+                    coast of the Semantics, a large language ocean. A small
+                    river named Duden flows by their place and supplies it with
+                    the necessary regelialia. It is a paradisematic country, in
+                    which roasted parts of sentences fly into your mouth.
+                  </blockquote>
+                </div>
+
+                <div class="testimonial-author-info">
+                  <img src="images/person_man_1.jpg" alt="Image" />
+                  <h3>Eric Ingram</h3>
+                  <span class="d-block position"
+                    >Product Designer @facebook</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="testimonial-v1">
+                <div class="testimonial-inner-bg">
+                  <span class="quote">&ldquo;</span>
+                  <blockquote>
+                    Far far away, behind the word mountains, far from the
+                    countries Vokalia and Consonantia, there live the blind
+                    texts. Separated they live in Bookmarksgrove right at the
+                    coast of the Semantics, a large language ocean. A small
+                    river named Duden flows by their place and supplies it with
+                    the necessary regelialia. It is a paradisematic country, in
+                    which roasted parts of sentences fly into your mouth.
+                  </blockquote>
+                </div>
+
+                <div class="testimonial-author-info">
+                  <img src="images/person_man_2.jpg" alt="Image" />
+                  <h3>Ryan Mullins</h3>
+                  <span class="d-block position"
+                    >Product Designer @Shopify</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="testimonial-v1">
+                <div class="testimonial-inner-bg">
+                  <span class="quote">&ldquo;</span>
+                  <blockquote>
+                    Far far away, behind the word mountains, far from the
+                    countries Vokalia and Consonantia, there live the blind
+                    texts. Separated they live in Bookmarksgrove right at the
+                    coast of the Semantics, a large language ocean. A small
+                    river named Duden flows by their place and supplies it with
+                    the necessary regelialia. It is a paradisematic country, in
+                    which roasted parts of sentences fly into your mouth.
+                  </blockquote>
+                </div>
+
+                <div class="testimonial-author-info">
+                  <img src="images/person_woman_1.jpg" alt="Image" />
+                  <h3>Erica Miller</h3>
+                  <span class="d-block position"
+                    >Product Designer @Twitter</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END testimonial -->
+
+        <div class="unslate_co--section" id="journal-section">
+          <div class="container">
+            <div class="section-heading-wrap text-center mb-5">
+              <h2 class="heading-h2 text-center divider">
+                <span class="gsap-reveal">My Journal</span>
+              </h2>
+              <span class="gsap-reveal"
+                ><img src="images/divider.png" alt="divider" width="76"
+              /></span>
+            </div>
+
+            <div class="row gutter-v4 align-items-stretch">
+              <div
+                class="col-sm-6 col-md-6 col-lg-8 blog-post-entry"
+                data-aos="fade-up"
+                data-aos-delay="0"
+              >
+                <a
+                  href="blog-single.html"
+                  class="grid-item blog-item w-100 h-100"
+                >
+                  <div class="overlay">
+                    <div class="portfolio-item-content">
+                      <h3>A Mounteering Guide For Beginners</h3>
+                      <p class="post-meta">
+                        By Joefrey <span class="small">&bullet;</span> 5 mins
+                        read
+                      </p>
+                    </div>
+                  </div>
+                  <img src="images/post_1.jpg" class="lazyload" alt="Image" />
+                </a>
+              </div>
+              <div
+                class="col-sm-6 col-md-6 col-lg-4 blog-post-entry"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+                <a
+                  href="blog-single.html"
+                  class="grid-item blog-item w-100 h-100"
+                >
+                  <div class="overlay">
+                    <div class="portfolio-item-content">
+                      <h3>A Mounteering Guide For Beginners</h3>
+                      <p class="post-meta">
+                        By Joefrey <span class="small">&bullet;</span> 5 mins
+                        read
+                      </p>
+                    </div>
+                  </div>
+                  <img src="images/post_2.jpg" class="lazyload" alt="Image" />
+                </a>
+              </div>
+
+              <div
+                class="col-sm-6 col-md-6 col-lg-4 blog-post-entry"
+                data-aos="fade-up"
+                data-aos-delay="0"
+              >
+                <a
+                  href="blog-single.html"
+                  class="grid-item blog-item w-100 h-100"
+                >
+                  <div class="overlay">
+                    <div class="portfolio-item-content">
+                      <h3>A Mounteering Guide For Beginners</h3>
+                      <p class="post-meta">
+                        By Joefrey <span class="small">&bullet;</span> 5 mins
+                        read
+                      </p>
+                    </div>
+                  </div>
+                  <img src="images/post_3.jpg" class="lazyload" alt="Image" />
+                </a>
+              </div>
+              <div
+                class="col-sm-6 col-md-6 col-lg-4 blog-post-entry"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+                <a
+                  href="blog-single.html"
+                  class="grid-item blog-item w-100 h-100"
+                >
+                  <div class="overlay">
+                    <div class="portfolio-item-content">
+                      <h3>A Mounteering Guide For Beginners</h3>
+                      <p class="post-meta">
+                        By Joefrey <span class="small">&bullet;</span> 5 mins
+                        read
+                      </p>
+                    </div>
+                  </div>
+                  <img src="images/post_4.jpg" class="lazyload" alt="Image" />
+                </a>
+              </div>
+
+              <div
+                class="col-sm-6 col-md-6 col-lg-4 blog-post-entry"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <a
+                  href="blog-single.html"
+                  class="grid-item blog-item w-100 h-100"
+                >
+                  <div class="overlay">
+                    <div class="portfolio-item-content">
+                      <h3>A Mounteering Guide For Beginners</h3>
+                      <p class="post-meta">
+                        By Joefrey <span class="small">&bullet;</span> 5 mins
+                        read
+                      </p>
+                    </div>
+                  </div>
+                  <img src="images/post_5.jpg" class="lazyload" alt="Image" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END blog posts -->
+
+        <div class="unslate_co--section" id="contact-section">
+          <div class="container">
+            <div class="section-heading-wrap text-center mb-5">
+              <h2 class="heading-h2 text-center divider">
+                <span class="gsap-reveal">Get In Touch</span>
+              </h2>
+              <span class="gsap-reveal"
+                ><img src="images/divider.png" alt="divider" width="76"
+              /></span>
+            </div>
+
+            <div class="row justify-content-between">
+              <div class="col-md-6">
+                <form
+                  method="post"
+                  class="form-outline-style-v1"
+                  id="contactForm"
+                >
+                  <div class="form-group row mb-0">
+                    <div class="col-lg-6 form-group gsap-reveal">
+                      <label for="name">Name</label>
+                      <input
+                        name="name"
+                        type="text"
+                        class="form-control"
+                        id="name"
+                      />
+                    </div>
+                    <div class="col-lg-6 form-group gsap-reveal">
+                      <label for="email">Email</label>
+                      <input
+                        name="email"
+                        type="email"
+                        class="form-control"
+                        id="email"
+                      />
+                    </div>
+                    <div class="col-lg-12 form-group gsap-reveal">
+                      <label for="message">Write your message...</label>
+                      <textarea
+                        name="message"
+                        id="message"
+                        cols="30"
+                        rows="7"
+                        class="form-control"
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div class="form-group row gsap-reveal">
+                    <div class="col-md-12 d-flex align-items-center">
+                      <input
+                        type="submit"
+                        class="btn btn-outline-pill btn-custom-light mr-3"
+                        value="Send Message"
+                      />
+                      <span class="submitting"></span>
+                    </div>
+                  </div>
+                </form>
+                <div id="form-message-warning" class="mt-4"></div>
+                <div id="form-message-success">
+                  Your message was sent, thank you!
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="contact-info-v1">
+                  <div class="gsap-reveal d-block">
+                    <span class="d-block contact-info-label">Email</span>
+                    <a href="#" class="contact-info-val">info@yourdomain.com</a>
+                  </div>
+                  <div class="gsap-reveal d-block">
+                    <span class="d-block contact-info-label">Phone</span>
+                    <a href="#" class="contact-info-val">+12 345 6789 012</a>
+                  </div>
+                  <div class="gsap-reveal d-block">
+                    <span class="d-block contact-info-label">Address</span>
+                    <address class="contact-info-val">
+                      273 South Riverview Rd. <br />
+                      New York, NY 10011
+                    </address>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END .unslate_co-site-inner -->
+
+      <footer class="unslate_co--footer unslate_co--section">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-7">
+              <div class="footer-site-logo">
+                <a href="#" class="text-uppercase"
+                  >pranay masulkar<span>.</span></a
+                >
+              </div>
+
+              <ul class="footer-site-social">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Dribbble</a></li>
+                <li><a href="#">Behance</a></li>
+              </ul>
+
+              <p class="site-copyright">
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                All rights reserved | This template is made with
+                <i class="icon-heart" aria-hidden="true"></i> by
+                <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Loader -->
+    <div id="unslate_co--overlayer"></div>
+    <div class="site-loader-wrap">
+      <div class="site-loader"></div>
+    </div>
+
+    <script src="js/scripts-dist.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

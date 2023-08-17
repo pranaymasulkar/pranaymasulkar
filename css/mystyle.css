@@ -1,0 +1,21 @@
+.unslate_co--site-mobile-menu {
+  padding-top: 3em;
+  padding-bottom: 40px;
+  padding-left: 2em;
+  padding-right: 2em;
+  width: 80%;
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow-y: hidden;
+  z-index: 1001;
+  background: url(https://preview.colorlib.com/theme/mostudio/images/aside.png.webp)
+    no-repeat right top #000;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
