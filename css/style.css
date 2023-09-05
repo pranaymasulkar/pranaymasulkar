@@ -63,7 +63,7 @@ a:hover {
   margin-bottom: 400px;
   position: relative;
   width: 100%;
-  z-index: 1;
+  z-index: 11;
 }
 
 @media (max-width: 991.98px) {
