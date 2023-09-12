@@ -1,2 +1,2 @@
-Thank you for Visting My website!
+Thank you for visiting my website!
 
