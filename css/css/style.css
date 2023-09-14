@@ -176,7 +176,7 @@ a:hover {
   font-weight: 700;
 }
 .unslate_co--site-nav .unslate_co--site-logo span {
-  color: #d63447;
+  color: #ae0c05;
 }
 .unslate_co--site-nav .site-nav-ul,
 .unslate_co--site-nav .site-nav-ul-none-onepage {
@@ -800,7 +800,7 @@ a:hover {
 }
 .unslate_co--site-nav.scrolled .site-nav-ul > li > a:hover,
 .unslate_co--site-nav.scrolled .site-nav-ul-none-onepage > li > a:hover {
-  color: #d63447;
+  color: #ae0c05;
 }
 .unslate_co--site-nav.scrolled .site-nav-ul > li > a:before,
 .unslate_co--site-nav.scrolled .site-nav-ul-none-onepage > li > a:before {
@@ -808,7 +808,7 @@ a:hover {
 }
 .unslate_co--site-nav.scrolled .site-nav-ul > li > a.active,
 .unslate_co--site-nav.scrolled .site-nav-ul-none-onepage > li > a.active {
-  color: #d63447;
+  color: #ae0c05;
 }
 .unslate_co--site-nav.scrolled .site-nav-ul > li > a.active:before,
 .unslate_co--site-nav.scrolled
@@ -910,7 +910,7 @@ a:hover {
 }
 .unslate_co--site-mobile-menu ul a:hover,
 .unslate_co--site-mobile-menu ul li a:hover {
-  color: #d63447;
+  color: #ae0c05;
 }
 .unslate_co--site-mobile-menu ul > li > ul > li > a {
   position: relative;
@@ -1597,7 +1597,7 @@ figure.dotted-bg:before {
   font-size: 69px;
   font-weight: 900;
   font-family: "Arimo", sans-serif;
-  color: #d63447;
+  color: #ae0c05;
 }
 .counter-v1 .number-wrap .append-text {
   position: relative;
@@ -2006,7 +2006,7 @@ figure.dotted-bg:before {
   color: #fff;
 }
 .unslate_co--footer .footer-site-logo a span {
-  color: #d63447;
+  color: #ae0c05;
 }
 .unslate_co--footer .footer-site-social {
   padding: 0;

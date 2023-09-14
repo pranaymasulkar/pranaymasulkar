@@ -90,6 +90,20 @@
 .fw-900 {
   font-weight: 900;
 }
+
+.feature-v1 {
+  line-height: 28px !important;
+}
+.feature-v1:hover {
+  /* background-color: #ae0b0526; */
+  /* border: 1px solid #ae0c05; */
+}
+
+.owl-carousel .owl-stage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* ===== Scrollbar CSS ===== */
 /* Firefox */
 * {
