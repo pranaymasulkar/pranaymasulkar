@@ -147,7 +147,7 @@ elems.forEach(function (elem) {
   let index = 0;
   let animationg = false;
 
-  document.querySelector("#main").addEventListener("click", () => {
+  document.querySelector("#main").addEventListener("scroll", () => {
     if (!animationg) {
       animationg = true;
       gsap.to(h1s[index], {
