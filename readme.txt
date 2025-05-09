@@ -1,35 +1,34 @@
-Thank you for visiting my website! https://pranaymasulkar.com
+👋 Hello and welcome!
+I’m a passionate and results-driven Frontend Developer with over 6.5 years of experience in building responsive, scalable, and user-centric web applications. I specialize in transforming design concepts into high-quality digital experiences using modern technologies.
 
-👋 Hello, and welcome! I am a Passionate Frontend Developer with over 4+ years of experience in creating captivating user interfaces and seamless web experiences. My journey in the tech industry has been characterized by a fervent passion for coding, a relentless pursuit of excellence, and a deep appreciation for innovative design.
+💻 Technical Expertise:
+I have hands-on experience with React.js, Next.js, JavaScript, TypeScript, HTML5, CSS3, and WordPress, focusing on building dynamic, component-based user interfaces, delivering robust, scalable applications.
 
-🔧 Technical Proficiency:
+🎯 Tools & Frameworks:
+My toolkit includes Bootstrap, Tailwind CSS for responsive design, and Git, GitHub, Bitbucket, and for version control and team collaboration. I’ve also worked with Angular and WordPress (including custom themes and WooCommerce setups) to build versatile and user-friendly websites.
 
-⚛️ ReactJS: I excel in using ReactJS to build dynamic and interactive user interfaces. I'm well-versed in component-based architecture, state management, and integrating third-party libraries to create feature-rich web applications.
+🌐 Domain Experience:
+I’ve worked across multiple industries, including:
+	•	🛒 E-commerce
+	•	🏠 Real Estate
+	•	🎓 EdTech (exam portals)
+	•	🧑‍💼 HRTech (HRMS)
+	•	🌐 Web3 & NFT Marketplaces
+	•	📊 Admin Dashboards
+	•	📁 Portfolio & CMS platforms
 
-🌐 Core Technologies: My foundation in HTML5, CSS3, and JavaScript empowers me to create clean and accessible code that transforms designs into visually appealing and functional websites.
+These projects challenged me to focus on performance, accessibility, and user experience while creating elegant interfaces.
 
-🎨 Design Frameworks: Utilizing frameworks like Bootstrap and React-bootstrap, I ensure consistent and responsive designs across various devices. This enhances user engagement and accessibility for online shoppers.
+👨‍💻 Current Role:
+As a Specialist Frontend Developer at Origius System Pvt. Ltd., I lead and mentor a frontend team, drive architectural decisions, and contribute hands-on to large-scale applications. Previously, I gained experience at Infoverce Technologies and Webakruti Software, where I worked in both startup and mid-size environments, enhancing my frontend skills and client-facing expertise.
 
-🌐 WordPress: My deep understanding of WordPress allows me to create, and developed custom themes to create versatile and user-friendly websites as well as custom e-commerce themes that cater to unique business needs.
+📚 Learning & Growth:
+I’m committed to continuous learning and staying ahead of industry trends. Currently, I’m expanding my skills toward Full Stack Development, focusing on Node.js, Express.js, and MongoDB to build end-to-end applications and enhance my versatility as a developer.
 
-🎨 Design Tools: My creativity extends beyond coding. I am aware of using Adobe Photoshop, XD, and Figma to extract design assets that align perfectly with project visions.
+🚀 Looking Ahead:
+I’m eager to collaborate on innovative projects that push the boundaries of design and technology. Whether building intuitive UIs or optimizing platforms, I bring dedication, creativity, and a user-first approach to every project.
 
-📊 JSON: I have a strong grasp of data interchange format JSON (JavaScript Object Notation).
+✨ Let’s connect if you’re working on something exciting or would like to discuss the future of web development.
 
-📚 Continual Learning:
-
-I am a firm believer in lifelong learning and staying ahead of industry trends through dedicated efforts:
-
-📚 Enrolled in advanced React workshops to deepen my understanding of hooks, context, and advanced state management patterns.
-
-🌟 Attended design and UX seminars to enhance my skills in creating user-centric interfaces and improving overall usability.
-
-🚀 Explored new frontend frameworks and libraries to stay adaptable and responsive to evolving technological landscapes.
-
-🌍 The Path Forward:
-
-🌟 As I look to the future, I'm excited to continue making a significant impact in frontend development: Contributing my expertise to innovative projects, and transforming concepts into seamless and user-friendly web experiences.
-
-💼 Collaborating with forward-thinking teams to push the boundaries of design and technology, creating interfaces that leave a lasting impression.
-
-"Coding the future of web experiences, one pixel at a time."
+🧠 “Good design is obvious. Great design is transparent.”
+Let’s create something great together, one line of clean code at a time.
