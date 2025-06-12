@@ -1,34 +1,75 @@
-👋 Hello and welcome!
-I’m a passionate and results-driven Frontend Developer with over 6.5 years of experience in building responsive, scalable, and user-centric web applications. I specialize in transforming design concepts into high-quality digital experiences using modern technologies.
+# 👋 Hello and welcome!
 
-💻 Technical Expertise:
-I have hands-on experience with React.js, Next.js, JavaScript, TypeScript, HTML5, CSS3, and WordPress, focusing on building dynamic, component-based user interfaces, delivering robust, scalable applications.
+I'm a passionate and results-driven **Frontend Developer** with over **6.5 years of experience** building responsive, scalable, and user-centric web applications. I specialize in transforming design concepts into high-quality digital experiences using modern technologies.
 
-🎯 Tools & Frameworks:
-My toolkit includes Bootstrap, Tailwind CSS for responsive design, and Git, GitHub, Bitbucket, and for version control and team collaboration. I’ve also worked with Angular and WordPress (including custom themes and WooCommerce setups) to build versatile and user-friendly websites.
+---
 
-🌐 Domain Experience:
-I’ve worked across multiple industries, including:
-	•	🛒 E-commerce
-	•	🏠 Real Estate
-	•	🎓 EdTech (exam portals)
-	•	🧑‍💼 HRTech (HRMS)
-	•	🌐 Web3 & NFT Marketplaces
-	•	📊 Admin Dashboards
-	•	📁 Portfolio & CMS platforms
+## 💻 Technical Expertise
 
-These projects challenged me to focus on performance, accessibility, and user experience while creating elegant interfaces.
+Experienced in:
+- **React.js**, **Next.js**, **JavaScript**, **TypeScript**, **HTML5**, **CSS3**
+- **WordPress** (including custom themes and WooCommerce)
+- Building **dynamic, component-based UIs** and delivering robust, scalable solutions
 
-👨‍💻 Current Role:
-As a Specialist Frontend Developer at Origius System Pvt. Ltd., I lead and mentor a frontend team, drive architectural decisions, and contribute hands-on to large-scale applications. Previously, I gained experience at Infoverce Technologies and Webakruti Software, where I worked in both startup and mid-size environments, enhancing my frontend skills and client-facing expertise.
+---
 
-📚 Learning & Growth:
-I’m committed to continuous learning and staying ahead of industry trends. Currently, I’m expanding my skills toward Full Stack Development, focusing on Node.js, Express.js, and MongoDB to build end-to-end applications and enhance my versatility as a developer.
+## 🎯 Tools & Frameworks
 
-🚀 Looking Ahead:
-I’m eager to collaborate on innovative projects that push the boundaries of design and technology. Whether building intuitive UIs or optimizing platforms, I bring dedication, creativity, and a user-first approach to every project.
+My toolkit includes:
+- **CSS Frameworks**: Bootstrap, Tailwind CSS  
+- **Version Control**: Git, GitHub, Bitbucket  
+- **Design & Collaboration**: Figma  
+- Also familiar with **Angular** for building cross-functional, modular UIs
 
-✨ Let’s connect if you’re working on something exciting or would like to discuss the future of web development.
+---
 
-🧠 “Good design is obvious. Great design is transparent.”
-Let’s create something great together, one line of clean code at a time.
+## 🌐 Domain Experience
+
+I’ve delivered solutions across:
+- 🛒 E-commerce  
+- 🏠 Real Estate  
+- 🎓 EdTech (Exam Portals)  
+- 🧑‍💼 HRTech (HRMS)  
+- 🌐 Web3 & NFT Marketplaces  
+- 📊 Admin Dashboards  
+- 📁 Portfolio & CMS Platforms
+
+These projects challenged me to focus on **performance**, **accessibility**, and **user-first experiences**.
+
+---
+
+## 👨‍💻 Current Role
+
+**Specialist Frontend Developer** at **Origius System Pvt. Ltd.**  
+- Leading frontend team  
+- Driving architectural decisions  
+- Contributing hands-on to large-scale applications  
+Previously worked with **InfoVerse Technologies** and **Webakruti Software**, gaining experience in startup and mid-size environments.
+
+---
+
+## 📚 Learning & Growth
+
+I’m committed to continuous learning.  
+Currently exploring:
+- **Full Stack Development** with **Node.js**, **Express.js**, and **MongoDB**
+- Backend integration, API architecture, and DevOps basics
+
+---
+
+## 🚀 Looking Ahead
+
+Excited to collaborate on projects that challenge creativity and innovation in frontend development. Whether crafting intuitive UIs or optimizing large platforms, I bring:
+- Dedication  
+- Creativity  
+- A user-first mindset  
+- Clean, scalable code
+
+> _“Good design is obvious. Great design is transparent.”_
+
+Let’s create something great together — one line of clean code at a time!
+
+---
+
+📫 **Let’s Connect**  
+[LinkedIn](https://www.linkedin.com/in/pranay-masulkar) • [GitHub](https://github.com/pranaymasulkar)
