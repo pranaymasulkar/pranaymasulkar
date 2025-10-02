@@ -64,16 +64,19 @@ const Header = () => {
                             animate="visible"
                             exit="exit"
                         >
-                            <button
-                                onClick={() => setIsOpen(false)}
-                                className="fixed cursor-pointer right-7 top-7 text-white hover:bg-[#04AA6D] bg-[#161616] font-black rounded-full p-4"
-                            >
-                                <IoClose size={30} />
-                            </button>
+
                             {/* Close Button */}
 
                             {/* Navigation Links */}
-                            <div className="w-full pt-24 md:pt-12 pb-12 px-8 md:px-12">
+                            <div className="relative w-full pt-12 md:pt-12 pb-12 px-8 md:px-12">
+                                <div className="w-full flex justify-end">
+                                    <button
+                                        onClick={() => setIsOpen(false)}
+                                        className=" fixed top-7 right-7 cursor-pointer  text-white hover:bg-[#04AA6D] bg-[#161616] font-black rounded-full p-4"
+                                    >
+                                        <IoClose size={30} />
+                                    </button>
+                                </div>
                                 <div className="w-full pt-24 pb-10 md:pt-0 md:pb-12">
                                     <p className="text-start text-xl font-normal leading-[1.7] tracking-widest text-black ">🦄 Innovative design <br />
                                         and cutting-edge development</p>
