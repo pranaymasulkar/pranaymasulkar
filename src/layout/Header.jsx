@@ -38,7 +38,7 @@ const Header = () => {
     ]
     return (
         <>
-            <header className="relative w-full h-10 flex justify-between items-center text bg-[#161616] text-white z-50 py-13 px-5 sm:px-6 md:px-10 lg:px-12 xl:px-12 2xl:px-13">
+            <header className="relative w-full h-10 flex justify-between items-center text bg-[#161616] text-white z-50 py-13 px-4 sm:px-5 md:px-10 lg:px-12 xl:px-12 2xl:px-13">
                 {/* Logo */}
                 <div className=" text-3xl md:text-4xl font-black tracking-widest text-white capitalize ">
                     <Link to="/" className="flex justify-start"><span>pranay masulkar </span><span className="text-[#04AA6D]"><StarImage /></span></Link>

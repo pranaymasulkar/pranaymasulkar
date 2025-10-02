@@ -27,7 +27,7 @@ const SocialMediaLinks = () => {
         }
     ]
     return (
-        <section className='bg-[#161616] pt-0 md:pt-12 pb-12 md:pb-24 px-5 sm:px-6 md:px-10 lg:px-12 xl:px-12 2xl:px-13'>
+        <section className='bg-[#161616] pt-0 md:pt-12 pb-12 md:pb-24 px-4 sm:px-5 md:px-10 lg:px-12 xl:px-12 2xl:px-13'>
             <div className='mx-auto'>
                 <div className="border-b-2 pt-10">
                     {socialLinks &&

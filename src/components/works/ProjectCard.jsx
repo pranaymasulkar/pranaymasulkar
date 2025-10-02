@@ -10,7 +10,7 @@ const ProjectCard = () => {
     const projects = mydata?.pranaymasulkar?.projects || [];
     return (
         <>
-            <section className="bg-[#161616] pt-12 pb-12 md:pt-24 px-5 sm:px-6 md:px-10 lg:px-12 xl:px-12 2xl:px-13">
+            <section className="bg-[#161616] pt-12 pb-12 md:pt-24 px-4 sm:px-5 md:px-10 lg:px-12 xl:px-12 2xl:px-13">
                 <h2 className="mb-15 flex justify-center items-center capitalize text-5xl md:text-6xl text-center font-medium leading-[1.1] tracking-wide text-pretty text-white">
                     <StarImage /> <span className="mx-4">Some Major work</span> <StarImage />
                 </h2>

@@ -3,7 +3,7 @@ import HeaddingWithStar from '../common/HeaddingWithStar'
 
 const AboutWork = () => {
     return (
-        <section className="bg-[#161616] py-12 md:py-24 px-5 sm:px-6 md:px-10 lg:px-12 xl:px-12 2xl:px-13">
+        <section className="bg-[#161616] py-12 md:py-24 px-4 sm:px-5 md:px-10 lg:px-12 xl:px-12 2xl:px-13">
             <div className="mx-auto">
                 <div className="mx-auto w-full lg:mx-0 md:flex justify-start items-start">
                     <div className='w-full md:w-[20%] md:sticky top-0 pt-15'>

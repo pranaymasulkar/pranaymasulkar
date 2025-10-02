@@ -59,7 +59,7 @@ const ProjectDetails = () => {
     return (
         <>
 
-            <section className="bg-[#161616] py-12 px-5 sm:px-6 md:px-10 lg:px-12 xl:px-12 2xl:px-13">
+            <section className="bg-[#161616] py-12 px-4 sm:px-5 md:px-10 lg:px-12 xl:px-12 2xl:px-13">
                 <div className="mx-auto">
                     <div className="flex justify-start items-center capitalize rounded-full gap-2 px-5 py-1 text-md text-gray-400 ring-1 ring-white/10 hover:ring-white/20">
                         <Link to="/works"
@@ -181,7 +181,7 @@ const ProjectDetails = () => {
                 </div >
             </section >
             {/* Pagination */}
-            <section className="bg-[#161616] py-12 px-5 sm:px-6 md:px-10 lg:px-12 xl:px-12 2xl:px-13 ">
+            <section className="bg-[#161616] py-12 px-4 sm:px-5 md:px-10 lg:px-12 xl:px-12 2xl:px-13 ">
 
                 <div className='py-10 flex justify-between items-center border-t-2 border-white'>
                     <button className='cursor-pointer tracking-wider flex items-start flex-col group' onClick={goToPrev}>

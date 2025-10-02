@@ -4,7 +4,7 @@ import HeaddingWithStar from '../common/HeaddingWithStar'
 import Myimage from "../../../public/pranay_masulkar.png";
 const AboutMeSection = () => {
     return (
-        <div className="bg-[#161616] pt-12 md:pt-24 pb-10 px-5 sm:px-6 md:px-10 lg:px-12 xl:px-12 2xl:px-13">
+        <div className="bg-[#161616] pt-12 md:pt-24 pb-10 px-4 sm:px-5 md:px-10 lg:px-12 xl:px-12 2xl:px-13">
             <div className="mx-auto">
 
                 <div className="md:flex w-full justify-between items-center mb-15 md:mb-20">

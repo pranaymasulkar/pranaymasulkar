@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const AboutSection = () => {
     return (
-        <div className="bg-[#161616] pt-12 md:pt-24 pb-12 md:pb-12 px-5 sm:px-6 md:px-10 lg:px-12 xl:px-12 2xl:px-13">
+        <div className="bg-[#161616] pt-12 md:pt-24 pb-12 md:pb-12 px-4 sm:px-5 md:px-10 lg:px-12 xl:px-12 2xl:px-13">
             <div className="flex w-full justify-between items-start">
                 <div className="w-full md:w-[85%] text-center mx-auto">
                     <p className="mb-0 text-xl md:text-4xl leading-[1.7] tracking-widest text-gray-300">

@@ -41,7 +41,7 @@ const Footer = () => {
     ]
 
     return (
-        <footer className="py-12 md:py-24 px-5 sm:px-6 md:px-10 lg:px-12 xl:px-12 2xl:px-13">
+        <footer className="py-12 md:py-24 px-4 sm:px-5 md:px-10 lg:px-12 xl:px-12 2xl:px-13">
             <div className="grid md:grid-cols-3 gap-10 mx-auto w-full">
                 {/* Column 1 - Navigation */}
                 <div className=" bg-[#1c1c1c] px-8 py-10 rounded-2xl">

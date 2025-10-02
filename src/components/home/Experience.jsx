@@ -8,7 +8,7 @@ const Experience = () => {
     const experience = mydata?.pranaymasulkar?.professional_experience
     // console.log(experience);
     return (
-        <div className="bg-[#161616] pb-12 md:pb-30 px-5 sm:px-6 md:px-10 lg:px-12 xl:px-12 2xl:px-13">
+        <div className="bg-[#161616] pb-12 md:pb-30 px-4 sm:px-5 md:px-10 lg:px-12 xl:px-12 2xl:px-13">
             <div className="mx-auto">
                 <div className="md:flex w-full justify-start items-start gap-10">
                     <div className='w-full md:w-[35%] md:sticky top-0 pt-24'>

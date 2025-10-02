@@ -27,7 +27,7 @@ const CallToAction = () => {
         "Get in Touch",
     ];
     return (
-        <section className="bg-[#161616] py-20 md:py-24 px-5 sm:px-6 md:px-10 lg:px-12 xl:px-12 2xl:px-13">
+        <section className="bg-[#161616] py-20 md:py-24 px-4 sm:px-5 md:px-10 lg:px-12 xl:px-12 2xl:px-13">
             <div className="w-full bg-[#ffffff] rounded-4xl backdrop-blur-[3px] px-0">
                 {/* <HeaddingWithStar title="Get in touch!" className="text-9xl font-black tracking-tight text-pretty capitalize text-[#161616] bg-white" /> */}
                 <div className="flex justify-center">
