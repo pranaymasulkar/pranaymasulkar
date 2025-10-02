@@ -1,0 +1,92 @@
+import React, { useContext, useState, useMemo } from "react";
+import { myDataContex } from "../../context/MyDataContex";
+import LineCard from "../common/LineCard";
+import HeaddingWithStar from "../common/HeaddingWithStar";
+import { Link } from "react-router-dom";
+
+const WorkSection = () => {
+    const { mydata } = useContext(myDataContex);
+    const projects = mydata?.pranaymasulkar?.projects || [];
+
+    const [hoveredProject, setHoveredProject] = useState(null);
+    const [mousePos, setMousePos] = useState({ x: null, y: null });
+
+    const handleMouseEnter = (project) => setHoveredProject(project);
+    const handleMouseLeave = () => setHoveredProject(null);
+    const handleMouseMove = (e) => {
+        requestAnimationFrame(() => {
+            setMousePos({ x: e.clientX, y: e.clientY });
+        });
+    };
+
+    const projectList = useMemo(
+        () =>
+            projects.map((project, index) => (
+                <div
+                    key={project.id || index}
+                    onMouseEnter={() => handleMouseEnter(project)}
+                    onMouseLeave={handleMouseLeave}
+                    onMouseMove={handleMouseMove}
+                    className="relative"
+                >
+                    <LineCard project={project} />
+                </div>
+            )),
+        [projects]
+    );
+
+    return (
+        <div
+            id="My_Work"
+            className="bg-[#161616] py-24 sm:py-32 relative px-5 sm:px-6 md:px-10 lg:px-12"
+        >
+            <div className="mx-auto">
+                <div className="w-full md:flex justify-between items-center">
+                    <HeaddingWithStar
+                        title="My work.."
+                        className="text-5xl md:text-6xl font-bold tracking-tight text-pretty capitalize text-white"
+                    />
+                    <p className="w-full md:w-[40%] mt-10 md:mt-2 mb-10 md:mb-0 text-lg text-gray-300">
+                        A collection of my professional work, focused on frontend development and modern web applications. All projects are tested, delivered, and approved by the client.
+                    </p>
+                    <Link
+                        to="/works"
+                        className="rounded-full tracking-widest px-6 py-3 text-xl text-gray-300 hover:text-white ring-2 ring-gray-300 hover:ring-white"
+                    >
+                        All Works
+                    </Link>
+                </div>
+
+                <div className="mt-10 border-b-2 border-white pt-10 sm:mt-16 sm:pt-16">
+                    {projectList}
+                </div>
+            </div>
+
+            {/* Floating data preview */}
+            {hoveredProject && (
+                <div
+                    className="hidden md:block fixed pointer-events-none z-50 transform -translate-x-1/2 -translate-y-1/2 transition-all duration-100"
+                    style={{
+                        top: mousePos.y,
+                        left: mousePos.x,
+                    }}
+                >
+                    <div className="w-100 h-full rounded-xl overflow-hidden shadow-xl bg-white animate-fadeIn">
+                        {hoveredProject.image && (
+                            <div className="relative overflow-hidden rounded-xl shadow-lg group h-[400px]">
+                                <img
+                                    loading="lazy"
+                                    src={hoveredProject.image}
+                                    alt={hoveredProject.title}
+                                    className="absolute top-0 left-0 w-full h-auto transition-transform duration-[7000ms] ease-linear group-hover:-translate-y-[80%]"
+                                />
+                            </div>
+                        )}
+                    </div>
+                </div>
+            )}
+        </div>
+    );
+};
+
+export default React.memo(WorkSection);
