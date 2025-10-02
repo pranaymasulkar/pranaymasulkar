@@ -36,12 +36,12 @@ const Hero = () => {
         <div className="relative bg-[#161616]">
             <ScrollTextSection
                 data={data}
-                parentClassName="h-[10vh] md:h-[30vh] bg-[#161616]"
+                parentClassName="h-[20vh] md:h-[30vh] bg-[#161616]"
                 className="text-6xl md:text-[6rem] text-white capitalize font-bold"
                 imageSize={`${'md' === true ? '100' : '80'}`}
             />
             <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} />
-            <div className="pt-0 px-5 sm:px-6 md:px-10 lg:px-12 xl:px-12 2xl:px-13">
+            <div className="pt-0 px-4 sm:px-5 md:px-10 lg:px-12 xl:px-12 2xl:px-13">
                 <div className="mx-auto w-full block md:flex justify-around items-center pt-0 pb-0 md:pb-10">
                     <div className="w-full sm:w-full md:w-[30%] lg:w-[30%] xl:w-[30%] 2xl:w-[30%]">
                         <h1 className="text-center md:text-start text-2xl font-light leading-[1.7] tracking-wide text-balance text-white mb-20 md:mb-15 capitalize">
