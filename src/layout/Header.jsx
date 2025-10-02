@@ -78,7 +78,7 @@ const Header = () => {
                                     </button>
                                 </div>
                                 <div className="w-full pt-24 pb-10 md:pt-0 md:pb-12">
-                                    <p className="text-start text-xl font-normal leading-[1.7] tracking-widest text-black ">🦄 Innovative design <br />
+                                    <p className="hidden md:block text-start text-xl font-normal leading-[1.7] tracking-widest text-black ">🦄 Innovative design <br />
                                         and cutting-edge development</p>
                                 </div>
 
