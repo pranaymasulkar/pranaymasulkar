@@ -87,7 +87,7 @@ const Hero = () => {
                                 scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
                             }}
 
-                            className="backdrop-blur-[10px] md:backdrop-blur-[5px] w-[45%] md:w-[160px] absolute bottom-0 md:top-60 md:bottom-auto left-3 md:-left-20 border border-[#c2adbb] rounded-xl md:rounded-2xl bg-[#d3bccd3b] md:bg-[#00000069] inline-block p-3 md:p-5 shadow-lg md:shadow-[#d7bdd1aa]">
+                            className="backdrop-blur-[10px] md:backdrop-blur-[5px] w-[45%] md:w-[160px] absolute -bottom-16 md:top-60 md:bottom-auto left-3 md:-left-20 border border-[#c2adbb] rounded-xl md:rounded-2xl bg-[#d3bccd3b] md:bg-[#00000069] inline-block p-3 md:p-5 shadow-lg md:shadow-[#d7bdd1aa]">
                             <h3 className="text-3xl md:text-5xl leading-[1.7] font-semibold text-balance text-white">
                                 50+
                                 <p className="text-sm md:text-lg mt-0 font-light">
@@ -108,7 +108,7 @@ const Hero = () => {
                                 duration: 2,
                                 scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
                             }}
-                            className="flex justify-center md:justify-start items-center backdrop-blur-[10px] md:backdrop-blur-[5px] w-auto md:w-50 absolute -top-5 transform translate-[-50%] left-[50%] md:left-auto right-auto md:top-20 md:-right-10 border border-[#c2adbb] rounded-xl md:rounded-2xl bg-[#d3bccd3b] md:bg-[#00000069] px-6 md:px-3 py-2 md:py-3 shadow-lg shadow-[#d7bdd1aa]">
+                            className="flex justify-center md:justify-start items-center backdrop-blur-[10px] md:backdrop-blur-[5px] w-60 md:w-50 absolute -top-5 transform translate-[-50%] left-[50%] md:left-auto right-auto md:top-20 md:-right-10 border border-[#c2adbb] rounded-xl md:rounded-2xl bg-[#d3bccd3b] md:bg-[#00000069] px-6 md:px-3 py-2 md:py-3 shadow-lg shadow-[#d7bdd1aa]">
                             <span className="text-[#04AA6D] me-3"> <StarImage /></span>
                             <p className="text-white leading-[1.7] text-sm md:text-lg font-bold uppercase">
                                 Open to Work
@@ -121,7 +121,7 @@ const Hero = () => {
                                 duration: 0.4,
                                 scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
                             }}
-                            className="backdrop-blur-[10px] md:backdrop-blur-[5px] w-[45%] md:w-[160px] absolute bottom-0 md:bottom-auto right-3 md:top-70 md:-right-20 border border-[#c2adbb] rounded-xl md:rounded-2xl bg-[#d3bccd3b] md:bg-[#00000069] inline-block p-3 md:p-5 shadow-lg md:shadow-[#d7bdd1aa]">
+                            className="backdrop-blur-[10px] md:backdrop-blur-[5px] w-[45%] md:w-[160px] absolute -bottom-16 md:bottom-auto right-3 md:top-70 md:-right-20 border border-[#c2adbb] rounded-xl md:rounded-2xl bg-[#d3bccd3b] md:bg-[#00000069] inline-block p-3 md:p-5 shadow-lg md:shadow-[#d7bdd1aa]">
                             <h3 className="text-3xl md:text-5xl leading-[1.7] font-semibold text-balance text-white">
                                 6+
                                 <p className="text-sm md:text-lg mt-0 font-light">
