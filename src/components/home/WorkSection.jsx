@@ -1,6 +1,5 @@
-import React, { useContext, useState, useMemo } from "react";
+import React, { useContext, useState } from "react";
 import { myDataContex } from "../../context/MyDataContex";
-import LineCard from "../common/LineCard";
 import HeaddingWithStar from "../common/HeaddingWithStar";
 import { Link } from "react-router-dom";
 
@@ -19,21 +18,6 @@ const WorkSection = () => {
         });
     };
 
-    const projectList = useMemo(
-        () =>
-            projects.map((project, index) => (
-                <div
-                    key={project.id || index}
-                    onMouseEnter={() => handleMouseEnter(project)}
-                    onMouseLeave={handleMouseLeave}
-                    onMouseMove={handleMouseMove}
-                    className="relative"
-                >
-                    <LineCard project={project} />
-                </div>
-            )),
-        [projects]
-    );
 
     return (
         <div
@@ -58,34 +42,81 @@ const WorkSection = () => {
                 </div>
 
                 <div className="mt-10 border-b-2 border-white pt-10 sm:mt-16 sm:pt-16">
-                    {projectList}
+                    {
+                        projects.slice(0, 6).map((project, index) => (
+                            <div
+                                key={project.id || index}
+                                onMouseEnter={() => handleMouseEnter(project)}
+                                onMouseLeave={handleMouseLeave}
+                                onMouseMove={handleMouseMove}
+                                className="relative"
+                            >
+                                <a href={project.link} target="_blank">
+                                    <div className="border-t-2 border-white bg-transparent mb-0">
+                                        <div className="group relative grow py-10 md:py-15">
+                                            <div className='md:flex items-center justify-between'>
+                                                <div className="block md:hidden w-full mb-7">
+                                                    <h2 className="text-4xl font-meddium tracking-widest text-[#04AA6D] text-shadow-lg mb-3">{index <= 9 ? '0' + (index <= 0 ? index + 1 : index + 1) : index}. </h2>
+                                                    <div
+                                                        className="relative overflow-hidden rounded-xl shadow-lg group"
+                                                        style={{ height: '300px' }}
+                                                    >
+                                                        <img
+                                                            src={project.image}
+                                                            alt={project.name}
+                                                            className="absolute top-0 left-0 w-full h-auto transition-transform duration-[7000ms] ease-linear group-hover:translate-y-[-80%]"
+                                                        />
+                                                        <div className="absolute top-0 left-0 bg-[#1616163a] focus:bg-[#04aa6d00] h-full w-full">
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <h3 className="w-full md:w-[40%] md:mt-3 text-4xl font-meddium text-white tracking-widest group-hover:text-gray-300">
+
+
+                                                    <span className="text-4xl font-meddium tracking-widest text-[#04AA6D] text-shadow-lg mb-3">{index <= 9 ? '0' + (index <= 0 ? index + 1 : index + 1) : index}. </span>
+                                                    {project.name}
+
+                                                </h3>
+                                                <div className="w-full md:w-[60%]">
+                                                    {/* <p className="mt-5 line-clamp-3 text-lg text-[#acacac]">{description}</p> */}
+                                                    <p className="mt-5 line-clamp-3 text-lg text-[#acacac]">{project.descriptionLong}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        ))}
                 </div>
             </div>
 
             {/* Floating data preview */}
-            {hoveredProject && (
-                <div
-                    className="hidden md:block fixed pointer-events-none z-50 transform -translate-x-1/2 -translate-y-1/2 transition-all duration-100"
-                    style={{
-                        top: mousePos.y,
-                        left: mousePos.x,
-                    }}
-                >
-                    <div className="w-100 h-full rounded-xl overflow-hidden shadow-xl bg-white animate-fadeIn">
-                        {hoveredProject.image && (
-                            <div className="relative overflow-hidden rounded-xl shadow-lg group h-[400px]">
-                                <img
-                                    loading="lazy"
-                                    src={hoveredProject.image}
-                                    alt={hoveredProject.title}
-                                    className="absolute top-0 left-0 w-full h-auto transition-transform duration-[7000ms] ease-linear group-hover:-translate-y-[80%]"
-                                />
-                            </div>
-                        )}
+            {
+                hoveredProject && (
+                    <div
+                        className="hidden md:block fixed pointer-events-none z-50 transform -translate-x-1/2 -translate-y-1/2 transition-all duration-100"
+                        style={{
+                            top: mousePos.y,
+                            left: mousePos.x,
+                        }}
+                    >
+                        <div className="w-100 h-full rounded-xl overflow-hidden shadow-xl bg-white animate-fadeIn">
+                            {hoveredProject.image && (
+                                <div className="relative overflow-hidden rounded-xl shadow-lg group h-[400px]">
+                                    <img
+                                        loading="lazy"
+                                        src={hoveredProject.image}
+                                        alt={hoveredProject.title}
+                                        className="absolute top-0 left-0 w-full h-auto transition-transform duration-[7000ms] ease-linear group-hover:-translate-y-[80%]"
+                                    />
+                                </div>
+                            )}
+                        </div>
                     </div>
-                </div>
-            )}
-        </div>
+                )
+            }
+        </div >
     );
 };
 

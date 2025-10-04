@@ -31,7 +31,7 @@ const Footer = () => {
         , {
             name: "Instagram",
             icon: <BsInstagram />,
-            href: 'https://www.linkedin.com/in/pranay-masulkar/'
+            href: 'https://www.instagram.com/pranaymasulkar/'
         },
         {
             name: "X / Twitter",
@@ -42,7 +42,7 @@ const Footer = () => {
 
     return (
         <footer className="w-full py-12 md:py-24 px-4 sm:px-5 md:px-10 lg:px-12 xl:px-12 2xl:px-13">
-            <div className="block md:grid-cols-3 md:gap-10 mx-auto w-full">
+            <div className="block md:grid md:grid-cols-3 md:gap-10 mx-auto w-full">
                 {/* Column 1 - Navigation */}
                 <div className=" bg-[#1c1c1c] px-8 py-10 rounded-2xl mb-8 md:mb-0">
                     <ul className="">

@@ -18,7 +18,7 @@ const SocialMediaLinks = () => {
         , {
             name: "Instagram",
             icon: <BsInstagram />,
-            link: 'https://www.linkedin.com/in/pranay-masulkar/'
+            link: 'https://www.instagram.com/pranaymasulkar/'
         },
         {
             name: "X / Twitter",
