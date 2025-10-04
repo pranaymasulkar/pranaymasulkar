@@ -6,7 +6,7 @@ This site highlights my projects, skills, and creative approach to building resp
 ---
 
 ## 🖥️ Live Demo
-👉 [View Portfolio](https://pranymasulkar.com)  
+👉 [www.pranaymasulkar.com](https://pranymasulkar.com)  
 
 ---
 
@@ -106,9 +106,9 @@ Steps (for Netlify)
 Pranay Masulkar
 Frontend Developer – Nagpur, India
 
-    •	💼 Website → https://pranaymasulkar.com
-	•	🐙 GitHub → https://github.com/pranaymasulkar
-    •	📧 LinkedIn → https://www.linkedin.com/in/pranay-masulkar/
-    •	📧 Instagram → https://www.instagram.com/pranaymasulkar/
+👉 [💼 www.pranaymasulkar.com](https://pranymasulkar.com) 
+👉 [🐙 GitHub](https://github.com/pranaymasulkar) 
+👉 [📧 LinkedIn](https://www.linkedin.com/in/pranay-masulkar/) 
+👉 [📧 Instagram](https://www.instagram.com/pranaymasulkar/) 
  
 ## “Driven by Ideas and Innovation. Crafted with ❤️ by Pranay Masulkar.”
