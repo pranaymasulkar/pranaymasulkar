@@ -29,7 +29,6 @@ const Header = () => {
         }),
     };
 
-    const navLinks2 = ["Home", "About", "Services", "Portfolio", "Contact"];
     const navLinks = [
         { name: 'Home', to: '/' },
         { name: 'About Me', to: '/about' },
@@ -40,7 +39,7 @@ const Header = () => {
         <>
             <header className="relative w-full h-10 flex justify-between items-center text bg-[#161616] text-white z-50 py-13 px-4 sm:px-5 md:px-10 lg:px-12 xl:px-12 2xl:px-13">
                 {/* Logo */}
-                <div className=" text-3xl md:text-4xl font-black tracking-widest text-white capitalize ">
+                <div className="text-xl sm:text-2xl md:text-4xl font-black tracking-widest text-white capitalize ">
                     <Link to="/" className="flex justify-start"><span>pranay masulkar </span><span className="text-[#04AA6D]"><StarImage /></span></Link>
                 </div>
                 <Link to="/contact" className="hidden md:block me-20 rounded-full tracking-widest px-6 py-3 text-xl/6 text-gray-300 hover:text-white ring-2 ring-gray-300 hover:ring-white">

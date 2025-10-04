@@ -41,10 +41,10 @@ const Footer = () => {
     ]
 
     return (
-        <footer className="py-12 md:py-24 px-4 sm:px-5 md:px-10 lg:px-12 xl:px-12 2xl:px-13">
-            <div className="grid md:grid-cols-3 gap-10 mx-auto w-full">
+        <footer className="w-full py-12 md:py-24 px-4 sm:px-5 md:px-10 lg:px-12 xl:px-12 2xl:px-13">
+            <div className="block md:grid-cols-3 md:gap-10 mx-auto w-full">
                 {/* Column 1 - Navigation */}
-                <div className=" bg-[#1c1c1c] px-8 py-10 rounded-2xl">
+                <div className=" bg-[#1c1c1c] px-8 py-10 rounded-2xl mb-8 md:mb-0">
                     <ul className="">
                         {navLinks.map((link, idx) => (
                             <li key={idx} className="group">
@@ -69,7 +69,7 @@ const Footer = () => {
                 {/* Column 2 - Contact + Subscribe */}
                 <div className="flex flex-col gap-8">
                     <div className="bg-[#1c1c1c] px-6 py-6 rounded-2xl">
-                        <p className="flex items-center gap-3 text-gray-200  py-7 text-2xl">
+                        <p className="flex items-center gap-3 text-gray-200 py-7 text-lg sm:text-xl md:text-2xl">
                             <StarImage />
                             <a
                                 href="mailto:pranaymasulkar@gmail.com"
@@ -112,7 +112,7 @@ const Footer = () => {
                 </div>
 
                 {/* Column 3 - Socials */}
-                <div className="flex flex-col justify-between bg-[#1c1c1c] px-8 py-10 rounded-2xl">
+                <div className="flex flex-col justify-between bg-[#1c1c1c] px-8 py-10 rounded-2xl my-8 md:my-0">
                     <div>
                         <p className="text-5xl font-medium tracking-wider text-white mb-4 pb-5 border-b-2 border-white">Connect</p>
                         <ul className="space-y-2">
