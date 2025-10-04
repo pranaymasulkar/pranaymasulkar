@@ -21,7 +21,7 @@ const AboutContact = () => {
                         <p className="text-xl md:text-3xl leading-[1.4] tracking-widest text-gray-300 mt-20 mb-10">
                             Looking for a Frontend or React Developer? I’m open to new opportunities and would love to connect.
                             If you have questions about my experience, projects, or availability, feel free to reach out. <br />
-                            📩 You can fill out the contact form below or email me directly at pranaymasulkar@gmail.com also you </p>
+                            📩 You can fill out the contact form below or email me directly at pranaymasulkar@gmail.com.</p>
                         <a href="/CV_Pranay_Masulkar.pdf" target="_blank" rel="noopener noreferrer" className="text-2xl md:text-4xl font-medium leading-[1.2] tracking-wide text-pretty uppercase text-[#04AA6D] hover:text-white hover:bg-[#04AA6D] mb-20 inline-block justify-start items-center backdrop-blur-[10px] md:backdrop-blur-[5px]  border border-[#c2adbb] rounded-full bg-[#00000069] py-3 px-12 shadow-lg shadow-[#d7bdd1aa]">
                             Download CV
                         </a>
