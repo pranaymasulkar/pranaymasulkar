@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 import { FaArrowTurnDown } from "react-icons/fa6";
 import { TypeAnimation } from "react-type-animation";
 import StarImage from "./StarImage";
-import RotatingCVButton from "./RotatingCVButton";
+// import RotatingCVButton from "./RotatingCVButton";`
 
 const Hero = () => {
     const tags = [
@@ -132,7 +132,7 @@ const Hero = () => {
                         </motion.div>
                     </div>
                     <div className="w-full sm:w-full md:w-[30%] lg:w-[30%] xl:w-[30%] 2xl:w-[30%] text-center">
-                        <RotatingCVButton />
+                        {/* <RotatingCVButton /> */}
                         <div className="flex flex-row flex-wrap items-center justify-center md:flex md:flex-col md:items-end md:justify-end gap-3">
                             {tags.map((item, index) => {
                                 return (
