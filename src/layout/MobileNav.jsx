@@ -30,8 +30,8 @@ const MobileNav = ({ onClick }) => {
     const navLinks = [
         { name: "Home", to: "/" },
         { name: "About Me", to: "/about" },
-        { name: "Contact", to: "/contact" },
         { name: "Works", to: "/works" },
+        { name: "Contact", to: "/contact" },
     ];
 
     return (
