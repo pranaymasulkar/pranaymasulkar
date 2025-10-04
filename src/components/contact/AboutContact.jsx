@@ -15,7 +15,7 @@ const AboutContact = () => {
                             Let's talk <br />
                             about your <br /> project!
                         </p>
-                        <a href="to:pranaymasulkar@gmail.com" className="text-3xl md:text-6xl font-medium leading-[1.2] tracking-wide text-pretty text-stone-600 hover:text-[#04AA6D] mt-0 block">
+                        <a href="to:pranaymasulkar@gmail.com" className="text-xl sm:text-2xl md:text-6xl font-medium leading-[1.2] tracking-wide text-pretty text-[#04AA6D] sm:text-[#04AA6D] md:text-stone-600 md:hover:text-[#04AA6D] mt-0 block">
                             pranaymasulkar@gmail.com
                         </a>
                         <p className="text-xl md:text-3xl leading-[1.4] tracking-widest text-gray-300 mt-20 mb-10">
