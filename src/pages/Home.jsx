@@ -8,12 +8,10 @@ import Footer from "../layout/Footer";
 import ScrollTextSection from "../components/common/ScrollTextSection";
 import TagLine from "../components/home/TagLine";
 import CallToAction from "../components/common/CallToAction";
-
-// import WorkSection from "../components/home/WorkSection";
 const WorkSection = React.lazy(() => import("../components/home/WorkSection"))
 
 const Home = () => {
-    console.log("this is chiled Home");
+    // console.log("this is chiled Home");
     const data = [
         "About Me",
         "About Me",

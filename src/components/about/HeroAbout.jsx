@@ -22,8 +22,8 @@ const HeroAbout = () => {
                         />
                     </div>
                     <div className="w-full pt-15">
-                        <p className="w-full md:w-[80%] text-7xl md:text-8xl font-medium leading-[1.1] tracking-wide text-pretty text-white mb-8 md:mb-0">
-                            Driven by ideas and innovation.
+                        <p className="w-full md:w-[80%] text-6xl sm:text-7xl md:text-8xl font-medium leading-[1.1] tracking-wide text-pretty text-white mb-8 md:mb-0">
+                            Driven by ideas and innovation
                         </p>
 
                         <div className="border-white rounded-full mt-15 border-b-2 pb-6">
