@@ -5,7 +5,7 @@ This site highlights my projects, skills, and creative approach to building resp
 
 ---
 
-## 🖥️ Live Demo
+## 🖥️ Visite
 👉 [www.pranaymasulkar.com](https://pranymasulkar.com)  
 
 ---
