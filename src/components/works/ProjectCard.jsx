@@ -11,7 +11,7 @@ const ProjectCard = () => {
     return (
         <>
             <section className="bg-[#161616] pt-12 pb-12 md:pt-24 px-4 sm:px-5 md:px-10 lg:px-12 xl:px-12 2xl:px-13">
-                <h2 className="mb-15 flex justify-center items-center capitalize text-5xl md:text-6xl text-center font-medium leading-[1.1] tracking-wide text-pretty text-white">
+                <h2 className="mb-15 flex justify-center items-center capitalize text-2xl sm:text-4xl md:text-6xl text-center font-medium leading-[1.1] tracking-wide text-pretty text-white">
                     <StarImage /> <span className="mx-4">Some Major work</span> <StarImage />
                 </h2>
                 <div className="grid md:grid-cols-3 gap-10">
