@@ -36,93 +36,95 @@ const MobileNav = ({ onClick }) => {
 
     return (
         <motion.div
-            className="fixed inset-0 bg-white z-50 flex flex-col overflow-y-auto rounded-4xl my-5 mx-5 sm:mx-6 md:mx-8"
+            className="fixed inset-0 bg-[#161616] z-50 flex flex-col ov overflow-hidden"
             variants={overlayVariants}
             initial="hidden"
             animate="visible"
             exit="exit"
         >
-            {/* ✅ Use absolute position inside container (no layout shift) */}
-            <button
-                onClick={onClick}
-                className="fixed md:absolute z-50 top-6 right-6 md:top-3 md:right-3 text-white bg-[#161616] hover:bg-[#04AA6D] rounded-full p-4 transition-colors duration-200"
-            >
-                <IoClose size={30} />
-            </button>
+            <div className="bg-white rounded-4xl my-5 mx-5 sm:mx-6 md:mx-8 overflow-y-auto">
+                {/* ✅ Use absolute position inside container (no layout shift) */}
+                <button
+                    onClick={onClick}
+                    className="fixed md:absolute z-50 top-2 right-2 text-white bg-[#161616] hover:bg-[#04AA6D] rounded-full p-3 transition-colors duration-200 border-6 border-white"
+                >
+                    <IoClose size={30} />
+                </button>
 
-            <div className="relative w-full pt-20 pb-12 px-8 md:px-12 rounded-4xl">
-                {/* Tagline */}
-                <div className="w-full pt-0 pb-10 md:pb-7">
-                    <p className="text-center md:text-start text-xl font-normal leading-[1.7] tracking-widest text-black">
-                        🦄 Innovative design <br />
-                        and cutting-edge development
-                    </p>
-                </div>
-
-                {/* Navigation & Profile */}
-                <div className="md:flex justify-between items-end w-full">
-                    {/* Left Section – Navigation */}
-                    <div className="w-full md:w-[50%]">
-                        <nav className="w-full flex flex-col gap-8 text-3xl font-semibold tracking-wide py-7 md:py-0">
-                            {navLinks.map((link, i) => (
-                                <motion.div
-                                    key={link.to}
-                                    custom={i}
-                                    variants={navItemVariants}
-                                    initial="hidden"
-                                    animate="visible"
-                                    exit="hidden"
-                                >
-                                    <Link
-                                        to={link.to}
-                                        onClick={onClick}
-                                        className="flex justify-between items-center hover:text-[#04AA6D] text-[#161616] text-6xl font-bold tracking-wide capitalize transition-colors"
-                                    >
-                                        {link.name} <StarImage />
-                                    </Link>
-                                </motion.div>
-                            ))}
-                        </nav>
-
-                        <p className="hidden md:flex justify-start items-start text-start text-sm tracking-widest text-[#161616] mt-12">
-                            With <FaHeart color="red" className="mx-1" /> By{" "}
-                            <span className="text-black mx-1 font-semibold">
-                                Pranay Masulkar.
-                            </span>
+                <div className="relative w-full pt-20 pb-12 px-8 md:px-12 rounded-4xl">
+                    {/* Tagline */}
+                    <div className="w-full pt-0 pb-10 md:pb-7">
+                        <p className="text-center md:text-start text-xl font-normal leading-[1.7] tracking-widest text-black">
+                            🦄 Innovative design <br />
+                            and cutting-edge development
                         </p>
                     </div>
 
-                    {/* Right Section – Image & Info */}
-                    <div className="w-full md:w-[40%] mt-10 md:mt-0 text-center md:text-right">
-                        <h4 className="text-xl font-normal leading-[1.7] tracking-widest text-black">
-                            👋 Nice to see you! <br />
-                            I'm Pranay Masulkar, <br />
-                            Specialist frontend developer <br />
-                            based in Nagpur, India
-                        </h4>
+                    {/* Navigation & Profile */}
+                    <div className="md:flex justify-between items-end w-full">
+                        {/* Left Section – Navigation */}
+                        <div className="w-full md:w-[50%]">
+                            <nav className="w-full flex flex-col gap-8 text-3xl font-semibold tracking-wide py-7 md:py-0">
+                                {navLinks.map((link, i) => (
+                                    <motion.div
+                                        key={link.to}
+                                        custom={i}
+                                        variants={navItemVariants}
+                                        initial="hidden"
+                                        animate="visible"
+                                        exit="hidden"
+                                    >
+                                        <Link
+                                            to={link.to}
+                                            onClick={onClick}
+                                            className="flex justify-between items-center hover:text-[#04AA6D] text-[#161616] text-4xl md:text-6xl font-bold tracking-wide capitalize transition-colors"
+                                        >
+                                            {link.name} <StarImage />
+                                        </Link>
+                                    </motion.div>
+                                ))}
+                            </nav>
 
-                        <div className="flex flex-col items-center md:items-end my-5">
-                            <img
-                                src={Myimage}
-                                alt="Pranay Masulkar"
-                                className="rounded-full md:w-60 md:h-60 object-cover"
-                            />
+                            <p className="hidden md:flex justify-start items-start text-start text-sm tracking-widest text-[#161616] mt-12">
+                                With <FaHeart color="red" className="mx-1" /> By{" "}
+                                <span className="text-black mx-1 font-semibold">
+                                    Pranay Masulkar.
+                                </span>
+                            </p>
                         </div>
 
-                        <p className="hidden md:block text-end text-sm tracking-widest text-[#161616]">
-                            © 2025
-                        </p>
+                        {/* Right Section – Image & Info */}
+                        <div className="w-full md:w-[40%] mt-10 md:mt-0 text-center md:text-right">
+                            <h4 className="text-xl font-normal leading-[1.7] tracking-widest text-black">
+                                👋 Nice to see you! <br />
+                                I'm Pranay Masulkar, <br />
+                                Specialist frontend developer <br />
+                                based in Nagpur, India
+                            </h4>
 
-                        <p className="block md:hidden text-center text-sm tracking-widest text-[#161616]">
-                            <span className="flex justify-center items-center">
-                                With <FaHeart color="red" className="mx-1" />
-                            </span>
-                            Designed & Developed By{" "}
-                            <span className="text-[#161616] font-bold mx-1">
-                                Pranay Masulkar
-                            </span>
-                            . Copyright © 2025.
-                        </p>
+                            <div className="flex flex-col items-center md:items-end my-5">
+                                <img
+                                    src={Myimage}
+                                    alt="Pranay Masulkar"
+                                    className="rounded-xl md:w-60 md:h-60 object-cover"
+                                />
+                            </div>
+
+                            <p className="hidden md:block text-end text-sm tracking-widest text-[#161616]">
+                                © 2025
+                            </p>
+
+                            <p className="block md:hidden text-center text-sm tracking-widest text-[#161616]">
+                                <span className="flex justify-center items-center">
+                                    With <FaHeart color="red" className="mx-1" />
+                                </span>
+                                Designed & Developed By{" "}
+                                <span className="text-[#161616] font-bold mx-1">
+                                    Pranay Masulkar
+                                </span>
+                                . Copyright © 2025.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
