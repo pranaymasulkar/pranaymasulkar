@@ -51,7 +51,7 @@ const MobileNav = ({ onClick }) => {
                     <IoClose size={30} />
                 </button>
 
-                <div className="relative w-full pt-20 pb-12 px-8 md:px-12 rounded-4xl">
+                <div className="relative w-full pt-15 pb-15 px-8 md:px-12 rounded-4xl">
                     {/* Tagline */}
                     <div className="w-full pt-0 pb-10 md:pb-7">
                         <p className="text-center md:text-start text-xl font-normal leading-[1.7] tracking-widest text-black">

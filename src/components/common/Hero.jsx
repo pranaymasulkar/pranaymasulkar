@@ -88,13 +88,13 @@ const Hero = () => {
                             }}
 
                             className="backdrop-blur-[10px] md:backdrop-blur-[5px] w-[45%] md:w-[160px] absolute -bottom-17 md:top-60 md:bottom-auto left-3 md:-left-20 border border-[#c2adbb] rounded-xl md:rounded-2xl bg-[#d3bccd3b] md:bg-[#00000069] inline-block p-3 md:p-5 shadow-lg md:shadow-[#d7bdd1aa]">
-                            <h3 className="text-3xl md:text-5xl leading-[1.7] font-semibold text-balance text-white">
+                            <h3 className="text-3xl md:text-5xl font-semibold text-balance text-white">
                                 50+
-                                <p className="text-sm md:text-lg mt-0 font-light">
-                                    Successful <br />
-                                    projects
-                                </p>
                             </h3>
+                            <p className="text-white leading-6 text-sm md:text-lg font-light mt-3">
+                                Successful <br />
+                                projects
+                            </p>
                         </motion.div>
                         <div className="mb-30 md:mb-0">
                             <img src={Myimage} alt="Pranay Masulkar" className="rounded-2xl md:rounded-full" />
@@ -122,13 +122,13 @@ const Hero = () => {
                                 scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
                             }}
                             className="backdrop-blur-[10px] md:backdrop-blur-[5px] w-[45%] md:w-[160px] absolute -bottom-17 md:bottom-auto right-3 md:top-70 md:-right-20 border border-[#c2adbb] rounded-xl md:rounded-2xl bg-[#d3bccd3b] md:bg-[#00000069] inline-block p-3 md:p-5 shadow-lg md:shadow-[#d7bdd1aa]">
-                            <h3 className="text-3xl md:text-5xl leading-[1.7] font-semibold text-balance text-white">
+                            <h3 className="text-3xl md:text-5xl font-semibold text-balance text-white">
                                 6+
-                                <p className="text-sm md:text-lg mt-0 font-light">
-                                    Years of <br />
-                                    experience
-                                </p>
                             </h3>
+                            <p className="text-white leading-6 text-sm md:text-lg font-light mt-3">
+                                Years of <br />
+                                experience
+                            </p>
                         </motion.div>
                     </div>
                     <div className="w-full sm:w-full md:w-[30%] lg:w-[30%] xl:w-[30%] 2xl:w-[30%] text-center">
