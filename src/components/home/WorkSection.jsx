@@ -72,9 +72,7 @@ const WorkSection = () => {
                                                     </div>
                                                 </div>
                                                 <h3 className="w-full md:w-[40%] md:mt-3 text-4xl font-meddium text-white tracking-widest group-hover:text-gray-300">
-
-
-                                                    <span className="text-4xl font-meddium tracking-widest text-[#04AA6D] text-shadow-lg mb-3">{index <= 9 ? '0' + (index <= 0 ? index + 1 : index + 1) : index}. </span>
+                                                    <span className="hidden md:inline-block text-4xl font-meddium tracking-widest text-[#04AA6D] text-shadow-lg mb-3">{index <= 9 ? '0' + (index <= 0 ? index + 1 : index + 1) : index}. </span>
                                                     {project.name}
 
                                                 </h3>
