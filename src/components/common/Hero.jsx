@@ -109,7 +109,9 @@ const Hero = () => {
                                 scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
                             }}
                             className="flex justify-center md:justify-start items-center backdrop-blur-[10px] md:backdrop-blur-[5px] w-60 md:w-50 absolute -top-5 transform translate-[-50%] left-[50%] md:left-auto right-auto md:top-20 md:-right-10 border border-[#c2adbb] rounded-xl md:rounded-2xl bg-[#d3bccd3b] md:bg-[#00000069] px-6 md:px-3 py-2 md:py-3 shadow-lg shadow-[#d7bdd1aa]">
-                            <span className="text-[#04AA6D] me-3"> <StarImage /></span>
+                            <motion.div className="text-[#04AA6D] me-3"
+                                animate={{ rotate: 360, }}
+                                transition={{ duration: 1, repeat: Infinity, }}> <StarImage /></motion.div>
                             <p className="text-white leading-[1.7] text-sm md:text-lg font-bold uppercase">
                                 Open to Work
                             </p>
