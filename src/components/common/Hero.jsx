@@ -1,5 +1,5 @@
 import ScrollTextSection from "./ScrollTextSection";
-import Myimage from "../../../public/pranay_masulkar.png";
+import PranayMasulkar from "../../../src/assets/pranay_masulkar.png";
 import { motion } from "motion/react";
 import { FaArrowTurnDown } from "react-icons/fa6";
 import { TypeAnimation } from "react-type-animation";
@@ -97,7 +97,7 @@ const Hero = () => {
                             </p>
                         </motion.div>
                         <div className="mb-30 md:mb-0">
-                            <img src={Myimage} alt="Pranay Masulkar" className="rounded-2xl md:rounded-full" />
+                            <img src={PranayMasulkar} alt="Pranay Masulkar" className="rounded-2xl md:rounded-full" />
                         </div>
                         <motion.div
                             animate={{ opacity: 1, scale: 1, y: [-7, 7, -7], }}

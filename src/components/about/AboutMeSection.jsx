@@ -1,7 +1,7 @@
 import React from 'react'
 import HeaddingWithStar from '../common/HeaddingWithStar'
 
-import Myimage from "../../../public/pranay_masulkar.png";
+import PranayMasulkar from "../../../src/assets/pranay_masulkar.png";
 const AboutMeSection = () => {
     return (
         <div className="bg-[#161616] pt-12 md:pt-24 pb-10 px-4 sm:px-5 md:px-10 lg:px-12 xl:px-12 2xl:px-13">
@@ -10,7 +10,7 @@ const AboutMeSection = () => {
                 <div className="md:flex w-full justify-between items-center mb-15 md:mb-20">
                     <div className='w-full md:w-[40%] mb-20 md:mb-0'>
                         <div className='flex flex-col justify-center items-center'>
-                            <img src={Myimage} alt="Pranay Masulkar" className="rounded md:rounded-full md:w-100 md:h-100" />
+                            <img src={PranayMasulkar} alt="Pranay Masulkar" className="rounded md:rounded-full md:w-100 md:h-100" />
                             <a href="/CV_Pranay_Masulkar.pdf" target="_blank" rel="noopener noreferrer" className='mt-5 uppercase rounded-full tracking-widest px-6 py-3 text-xl/6 text-[#04AA6D] hover:text-white ring-2 ring-gray-300 hover:ring-[#04AA6D]'>download cv</a>
                         </div>
                     </div>

@@ -1,10 +1,11 @@
-import React, { useContext } from 'react'
+import { useContext } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import { myDataContex } from "../context/MyDataContex";
 import HeaddingWithStar from '../components/common/HeaddingWithStar';
 import ParallaxSection from '../components/common/ParallaxSection';
 import { LuSquareArrowOutUpRight } from "react-icons/lu";
 import CallToAction from '../components/common/CallToAction';
+import Footer from '../layout/Footer';
 import { IoArrowUndoSharp } from "react-icons/io5";
 import StarImage from '../components/common/StarImage';
 import { GoArrowLeft } from "react-icons/go";
@@ -193,6 +194,7 @@ const ProjectDetails = () => {
                 </div>
             </section>
             <CallToAction />
+            <Footer />
         </>
     )
 }

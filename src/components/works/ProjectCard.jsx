@@ -1,6 +1,4 @@
 import React, { useContext } from "react";
-import imgs from "../../../public/final-version_two.png";
-import HeaddingWithStar from "../common/HeaddingWithStar";
 import { myDataContex } from "../../context/MyDataContex";
 import { Link } from "react-router-dom";
 import StarImage from "../common/StarImage";

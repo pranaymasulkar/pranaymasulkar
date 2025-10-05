@@ -4,6 +4,7 @@ import Hero from "../components/common/Hero";
 import AboutSection from "../components/home/AboutSection";
 import Education from "../components/home/Education";
 import Experience from "../components/home/Experience";
+import Footer from "../layout/Footer";
 import ScrollTextSection from "../components/common/ScrollTextSection";
 import TagLine from "../components/home/TagLine";
 import CallToAction from "../components/common/CallToAction";
@@ -69,6 +70,7 @@ const Home = () => {
             <TeckStack />
             {/* <Education /> */}
             <CallToAction />
+            <Footer />
         </>
     );
 };

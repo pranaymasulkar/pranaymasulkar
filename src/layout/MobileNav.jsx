@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import StarImage from "../components/common/StarImage";
 import { Link } from "react-router-dom";
 import { FaHeart } from "react-icons/fa";
-import Myimage from "../../public/pranay_masulkar.png";
+import PranayMasulkar from "../../src/assets/pranay_masulkar.png";
 import { IoClose } from "react-icons/io5";
 
 const MobileNav = ({ onClick }) => {
@@ -104,7 +104,7 @@ const MobileNav = ({ onClick }) => {
 
                             <div className="flex flex-col items-center md:items-end my-5">
                                 <img
-                                    src={Myimage}
+                                    src={PranayMasulkar}
                                     alt="Pranay Masulkar"
                                     className="rounded-xl md:w-60 md:h-60 object-cover"
                                 />

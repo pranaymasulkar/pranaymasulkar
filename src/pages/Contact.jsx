@@ -1,5 +1,6 @@
 import ScrollTextSection from "../components/common/ScrollTextSection";
 import SocialMediaLinks from "../components/contact/SocialMediaLinks";
+import Footer from "../layout/Footer";
 import AboutContact from "../components/contact/AboutContact";
 
 const Contact = () => {
@@ -25,6 +26,7 @@ const Contact = () => {
                 imageSize={`${"md" === true ? "150" : "80"}`}
             />
             <SocialMediaLinks />
+            <Footer />
         </>
     );
 };

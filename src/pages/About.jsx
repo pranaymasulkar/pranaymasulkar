@@ -3,6 +3,7 @@ import AboutMeSection from '../components/about/AboutMeSection'
 import TeckStack from '../components/about/TeckStack'
 import Experties from '../components/about/Experties'
 import PhylosophySection from '../components/about/PhylosophySection'
+import Footer from '../layout/Footer'
 import CallToAction from '../components/common/CallToAction'
 import HeroAbout from '../components/about/HeroAbout'
 
@@ -15,6 +16,7 @@ const About = () => {
             <Experties />
             <PhylosophySection />
             <CallToAction />
+            <Footer />
         </>
     )
 }
