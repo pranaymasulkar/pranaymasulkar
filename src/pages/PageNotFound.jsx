@@ -1,4 +1,3 @@
-import React from 'react'
 import HeaddingWithStar from '../components/common/HeaddingWithStar'
 import { Link } from 'react-router-dom'
 import { GiReturnArrow } from 'react-icons/gi'

@@ -1,13 +1,13 @@
-import { useState } from 'react'
 import './App.css'
-import Hero from './components/common/Hero'
 import Header from './layout/Header.jsx'
+import Footer from './layout/Footer.jsx'
 
 function App() {
 
   return (
     <>
       <Header />
+      <Footer />
     </>
   )
 }

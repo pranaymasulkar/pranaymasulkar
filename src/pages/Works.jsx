@@ -1,7 +1,5 @@
-import React from "react";
 import AboutWork from "../components/works/AboutWork";
 import ProjectCard from "../components/works/ProjectCard";
-import Footer from "../layout/Footer";
 import CallToAction from "../components/common/CallToAction";
 import ScrollTextSection from "../components/common/ScrollTextSection";
 import TechStackScroll from "../components/works/TechStackScroll";
@@ -34,7 +32,6 @@ const Works = () => {
             <ProjectCard />
             <TechStackScroll />
             <CallToAction />
-            <Footer />
         </>
     );
 };
