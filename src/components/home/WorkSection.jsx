@@ -118,4 +118,4 @@ const WorkSection = () => {
     );
 };
 
-export default React.memo(WorkSection);
+export default WorkSection;
