@@ -1,3 +1,4 @@
+import React from "react";
 import { FaReact } from "react-icons/fa";
 import { SiNextdotjs } from "react-icons/si";
 import { RiJavascriptFill } from "react-icons/ri";
@@ -16,10 +17,8 @@ import { SiExpress } from "react-icons/si";
 import { FaGitSquare } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaFigma } from "react-icons/fa";
-import React from "react";
 
 const TeckLogoCard = () => {
-    // console.log('this is chiled TeckLogoCard');
     const stack = [
         {
             title: "React Js",

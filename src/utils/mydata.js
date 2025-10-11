@@ -1,12 +1,11 @@
-import Allied from "/Allied-Market-Research.png";
-import ResearchDive from "/Research-Dive.png";
-import ORIO from "/Orio.png";
-import HVAMBIT from "/HVAMBIT.jpeg";
-import MagicalMelghat from "/Melghat.png";
-import Roomyys from "/Roomyys.png";
-import infoverce from "/infoversetech.png";
-import NiranjanGohane from "/Niranjan-Gohane.png";
-import CV from "/CV_Pranay_Masulkar.pdf";
+import Allied from "../assets/Allied-Market-Research.png";
+import ResearchDive from "../assets/Research-Dive.png";
+import ORIO from "../assets/Orio.png";
+import HVAMBIT from "../assets/HVAMBIT.jpeg";
+import MagicalMelghat from "../assets/Melghat.png";
+import Roomyys from "../assets/Roomyys.png";
+import infoverce from "../assets/infoversetech.png";
+import NiranjanGohane from "../assets/Niranjan-Gohane.png";
 const data = {
   pranaymasulkar: {
     full_name: "Pranay Masulkar",

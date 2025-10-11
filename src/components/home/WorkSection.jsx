@@ -1,7 +1,9 @@
+"use client"
 import React, { useContext, useState } from "react";
 import { myDataContex } from "../../context/MyDataContex";
-import HeaddingWithStar from "../common/HeaddingWithStar";
-import { Link } from "react-router-dom";
+import ButtonOutline from "../buttons/ButtonOutline";
+import HeaddingWithStar from "../typography/HeaddingWithStar";
+import Image from "next/image";
 
 const WorkSection = () => {
     const { mydata } = useContext(myDataContex);
@@ -33,12 +35,8 @@ const WorkSection = () => {
                     <p className="w-full md:w-[40%] mt-10 md:mt-2 mb-10 md:mb-0 text-lg text-gray-300">
                         A collection of my professional work, focused on frontend development and modern web applications. All projects are tested, delivered, and approved by the client.
                     </p>
-                    <Link
-                        to="/works"
-                        className="rounded-full tracking-widest px-6 py-3 text-xl text-gray-300 hover:text-white ring-2 ring-gray-300 hover:ring-white"
-                    >
-                        All Works
-                    </Link>
+
+                    <ButtonOutline title="All Works" href="/works" />
                 </div>
 
                 <div className="mt-10 border-b-2 border-white pt-10 sm:mt-16 sm:pt-16">
@@ -55,15 +53,15 @@ const WorkSection = () => {
                                     <div className="border-t-2 border-white bg-transparent mb-0">
                                         <div className="group relative grow py-10 md:py-15">
                                             <div className='md:flex items-center justify-between'>
-                                                <div className="block md:hidden w-full mb-7">
+                                                <div className="block sm:block md:hidden lg:hidden xl:hidden 2xl:hidden w-full mb-7">
                                                     <h2 className="text-4xl font-meddium tracking-widest text-[#04AA6D] text-shadow-lg mb-3">{index <= 9 ? '0' + (index <= 0 ? index + 1 : index + 1) : index}. </h2>
                                                     <div
                                                         className="relative overflow-hidden rounded-xl shadow-lg group"
                                                         style={{ height: '300px' }}
                                                     >
-                                                        <img
+                                                        <Image
                                                             src={project.image}
-                                                            alt={project.name}
+                                                            alt=""
                                                             className="absolute top-0 left-0 w-full h-auto transition-transform duration-[7000ms] ease-linear group-hover:translate-y-[-80%]"
                                                         />
                                                         <div className="absolute top-0 left-0 bg-[#1616163a] focus:bg-[#04aa6d00] h-full w-full">
@@ -77,7 +75,6 @@ const WorkSection = () => {
 
                                                 </h3>
                                                 <div className="w-full md:w-[60%]">
-                                                    {/* <p className="mt-5 line-clamp-3 text-lg text-[#acacac]">{description}</p> */}
                                                     <p className="mt-5 line-clamp-3 text-lg text-[#acacac]">{project.descriptionLong}</p>
                                                 </div>
                                             </div>
@@ -102,10 +99,9 @@ const WorkSection = () => {
                         <div className="w-100 h-full rounded-xl overflow-hidden shadow-xl bg-white animate-fadeIn">
                             {hoveredProject.image && (
                                 <div className="relative overflow-hidden rounded-xl shadow-lg group h-[400px]">
-                                    <img
-                                        loading="lazy"
+                                    <Image
                                         src={hoveredProject.image}
-                                        alt={hoveredProject.title}
+                                        alt=""
                                         className="absolute top-0 left-0 w-full h-auto transition-transform duration-[7000ms] ease-linear group-hover:-translate-y-[80%]"
                                     />
                                 </div>

@@ -1,7 +1,7 @@
-import React from 'react'
+"use client"
 import { useContext } from 'react'
 import { myDataContex } from '../../context/MyDataContex'
-import HeaddingWithStar from '../common/HeaddingWithStar'
+import HeaddingWithStar from '../typography/HeaddingWithStar'
 
 const Experience = () => {
     const { mydata } = useContext(myDataContex)

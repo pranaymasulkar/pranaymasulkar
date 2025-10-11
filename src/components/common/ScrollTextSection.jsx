@@ -1,3 +1,4 @@
+"use client"
 import React, { useEffect, useRef, useState } from "react";
 
 const ScrollTextSection = ({ data, className, parentClassName, imageSize }) => {

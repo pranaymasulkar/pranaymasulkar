@@ -1,36 +1,41 @@
-// MyDataContex.jsx
-import React, { useEffect, useState } from "react";
-import { createContext } from "react";
-import { useLocation } from "react-router-dom";
+"use client";
+import React, { useEffect, useState, createContext, useMemo } from "react";
+import { usePathname } from "next/navigation"; // ✅ Next.js version of useLocation
 import data from "../utils/mydata";
-import Loadder from "../components/common/Loadder";
-import { useMemo } from "react";
+import Loader from "@/components/layout/Loader";
 
 export const myDataContex = createContext(null);
 
-const MyDataContex = (props) => {
+const MyDataContex = ({ children }) => {
     const [mydata, setMyData] = useState([]);
     const [loading, setLoading] = useState(true);
-    const location = useLocation();
+    const [showLoader, setShowLoader] = useState(true);
+    const pathname = usePathname();
 
-    const values = useMemo(() => ({
-        mydata,
-
-    }), [mydata]);
-
+    // fetch data once
     useEffect(() => {
-        setLoading(true); // show loader on every route change
-        const timer = setTimeout(() => {
+        setTimeout(() => {
             setMyData(data);
             setLoading(false);
-        }, 1500); // same duration as loader
+        }, 1500);
+    }, []);
 
+    // show loader on every route change
+    useEffect(() => {
+        setShowLoader(true);
+        const timer = setTimeout(() => {
+            setShowLoader(false);
+        }, 1200);
         return () => clearTimeout(timer);
-    }, [location.pathname]); // runs every time the route changes
+    }, [pathname]);
+
+    const values = useMemo(() => ({ mydata, setMyData }), [mydata]);
+
+    if (loading) return <Loader />;
 
     return (
         <myDataContex.Provider value={values}>
-            {loading ? <Loadder duration={2} /> : props.children}
+            {showLoader ? <Loader /> : children}
         </myDataContex.Provider>
     );
 };
