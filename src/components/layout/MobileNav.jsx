@@ -24,7 +24,7 @@ const MobileNav = ({ onClick }) => {
         visible: (i) => ({
             opacity: 1,
             y: 0,
-            transition: { delay: i * 0.15, duration: 0.4, ease: "easeOut" },
+            transition: { delay: i * 0.18, duration: 0.5, ease: "easeOut" },
         }),
     };
 
@@ -54,7 +54,7 @@ const MobileNav = ({ onClick }) => {
 
                 <div className="relative w-full pt-15 pb-15 px-8 md:px-12 rounded-4xl">
                     {/* Tagline */}
-                    <div className="w-full pt-0 pb-10 md:pb-7">
+                    <div className="w-full pt-0 pb-10 md:pb-20">
                         <p className="text-center md:text-start text-xl font-normal leading-[1.7] tracking-widest text-black">
                             🦄 Innovative design <br />
                             and cutting-edge development
@@ -65,7 +65,7 @@ const MobileNav = ({ onClick }) => {
                     <div className="md:flex justify-between items-end w-full">
                         {/* Left Section – Navigation */}
                         <div className="w-full md:w-[50%]">
-                            <nav className="w-full flex flex-col gap-8 text-3xl font-semibold tracking-wide py-7 md:py-0">
+                            <nav className="w-full flex flex-col gap-8 md:gap-15 text-3xl font-semibold tracking-wide py-7 md:py-0">
                                 {navLinks.map((link, i) => (
                                     <motion.div
                                         key={link.to}
@@ -86,7 +86,7 @@ const MobileNav = ({ onClick }) => {
                                 ))}
                             </nav>
 
-                            <p className="hidden md:flex justify-start items-start text-start text-sm tracking-widest text-[#161616] mt-12">
+                            <p className="hidden md:flex justify-start items-start text-start text-sm tracking-widest text-[#161616] mt-12 md:mt-18">
                                 With <FaHeart color="red" className="mx-1" /> By{" "}
                                 <span className="text-black mx-1 font-semibold">
                                     Pranay Masulkar.
