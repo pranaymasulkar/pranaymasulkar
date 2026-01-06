@@ -1,5 +1,3 @@
-import Footer from '@/components/layout/Footer'
-import Header from '@/components/layout/Header'
 import HeroWork from './components/HeroWork'
 import ScrollTextSectionTwo from '@/components/common/ScrollTextSectionTwo'
 import ProjectCard from './components/ProjectCard'
@@ -9,6 +7,7 @@ import { RiJavascriptFill } from 'react-icons/ri'
 import { BiLogoTypescript } from 'react-icons/bi'
 import ScrollTextSectionFour from '@/components/common/ScrollTextSectionFour'
 import CallToAction from '@/components/common/CallToAction'
+import MainLyaout from '@/layout/MainLyaout'
 const page = () => {
     const data = [
         "modern",
@@ -45,8 +44,7 @@ const page = () => {
         <FaFigma className="text-[#04AA6D]" />,
     ]
     return (
-        <>
-            <Header />
+        <MainLyaout>
             <HeroWork />
             <ScrollTextSectionTwo
                 data={data} />
@@ -54,9 +52,8 @@ const page = () => {
             <section className="mt-12 pb-0 md:mt-24 md:pb-24">
                 <ScrollTextSectionFour data={stack} />
             </section>
-            <CallToAction/>
-            <Footer />
-        </>
+            <CallToAction />
+        </MainLyaout>
     )
 }
 

@@ -1,8 +1,7 @@
-import Footer from '@/components/layout/Footer'
-import Header from '@/components/layout/Header'
 import HeroContact from './components/HeroContact'
 import ScrollTextSectionTwo from '@/components/common/ScrollTextSectionTwo';
 import SocialMediaLinks from './components/SocialMediaLinks';
+import MainLyaout from '@/layout/MainLyaout';
 
 const page = () => {
     const data = [
@@ -18,13 +17,11 @@ const page = () => {
         "Conect",
     ];
     return (
-        <>
-            <Header />
+        <MainLyaout>
             <HeroContact />
             <ScrollTextSectionTwo data={data} />
-            <SocialMediaLinks/>
-            <Footer />
-        </>
+            <SocialMediaLinks />
+        </MainLyaout>
     )
 }
 

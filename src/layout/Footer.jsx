@@ -1,4 +1,4 @@
-import StarImage from "../common/StarImage";
+import StarImage from "../components/common/StarImage";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import { BsInstagram } from "react-icons/bs";

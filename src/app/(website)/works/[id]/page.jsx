@@ -9,9 +9,8 @@ import { LuSquareArrowOutUpRight } from "react-icons/lu";
 import HeaddingWithStar from "@/components/typography/HeaddingWithStar";
 import StarImage from "@/components/common/StarImage";
 import CallToAction from "@/components/common/CallToAction";
-import Footer from "@/components/layout/Footer";
 import ParallaxSection from "../components/ParallaxSection";
-import Header from "@/components/layout/Header";
+import MainLyaout from "@/layout/MainLyaout";
 
 
 const DetailPage = ({ params }) => {
@@ -49,8 +48,7 @@ const DetailPage = ({ params }) => {
     }
 
     return (
-        <>
-        <Header/>
+        <MainLyaout>
             <section className="bg-[#161616] py-12 px-4 sm:px-5 md:px-10 lg:px-12 xl:px-12 2xl:px-13">
                 <div className="mx-auto">
                     {/* Back to Works */}
@@ -218,8 +216,7 @@ const DetailPage = ({ params }) => {
             </section>
 
             <CallToAction />
-            <Footer />
-        </>
+        </MainLyaout>
     );
 };
 

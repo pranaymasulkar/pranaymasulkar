@@ -1,7 +1,7 @@
 import "./globals.css";
 // import { Funnel_Display } from "next/font/google";
 import MyDataContex from "../context/MyDataContex";
-import LoaderTwo from "@/components/layout/LoaderTwo";
+import LoaderTwo from "@/layout/LoaderTwo";
 import localFont from "next/font/local";
 
 const funnelDisplay = localFont({

@@ -2,7 +2,7 @@
 import React, { useEffect, useState, createContext, useMemo } from "react";
 import { usePathname } from "next/navigation"; // ✅ Next.js version of useLocation
 import data from "../utils/mydata";
-import Loader from "@/components/layout/Loader";
+import Loader from "@/layout/Loader";
 
 export const myDataContex = createContext(null);
 

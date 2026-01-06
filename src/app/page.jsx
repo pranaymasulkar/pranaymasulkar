@@ -1,6 +1,3 @@
-
-import Footer from '@/components/layout/Footer'
-import Header from '@/components/layout/Header'
 import AboutSection from '@/components/home/AboutSection'
 import ScrollTextSectionTwo from '@/components/common/ScrollTextSectionTwo'
 import Hero from '@/components/home/Hero'
@@ -9,6 +6,7 @@ import TagLine from '@/components/home/TagLine'
 import Experience from '@/components/home/Experience'
 import TechStack from '@/components/home/TechStack'
 import CallToAction from '@/components/common/CallToAction'
+import MainLyaout from '@/layout/MainLyaout'
 
 const page = () => {
   const data = [
@@ -46,8 +44,7 @@ const page = () => {
     "Figma",
   ];
   return (
-    <>
-      <Header />
+    <MainLyaout>
       <Hero />
       <ScrollTextSectionTwo data={data} />
       <AboutSection />
@@ -56,9 +53,8 @@ const page = () => {
       <Experience />
       <ScrollTextSectionTwo data={stack} />
       <TechStack />
-      <CallToAction/>
-      <Footer />
-    </>
+      <CallToAction />
+    </MainLyaout>
   )
 }
 

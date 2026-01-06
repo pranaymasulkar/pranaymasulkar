@@ -3,10 +3,10 @@ import React, { useState } from "react";
 import { AnimatePresence } from "framer-motion";
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
 
-import ScrollProgressCircle from "../common/ScrollProgressCircle";
+import ScrollProgressCircle from "../components/common/ScrollProgressCircle";
 import MobileNav from "./MobileNav";
 import Link from "next/link";
-import StarImage from "../common/StarImage";
+import StarImage from "../components/common/StarImage";
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import StarImage from "../common/StarImage";
+import StarImage from "../components/common/StarImage";
 import { FaHeart } from "react-icons/fa";
 import PranayMasulkar from "@/assets/pranay_masulkar.png";
 import { IoClose } from "react-icons/io5";
