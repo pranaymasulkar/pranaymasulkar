@@ -3,6 +3,7 @@ import "./globals.css";
 import MyDataContex from "../context/MyDataContex";
 import LoaderTwo from "@/layout/LoaderTwo";
 import localFont from "next/font/local";
+import Script from "next/script";
 
 const funnelDisplay = localFont({
   src: "../../public/fonts/FunnelDisplay.woff2",
