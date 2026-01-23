@@ -1,7 +1,7 @@
-import Allied from "../assets/Allied-Market-Research.png";
+import AlliedMarket from "../assets/Allied-Market-Research.png";
 import ResearchDive from "../assets/Research-Dive.png";
 import ORIO from "../assets/Orio.png";
-import HVAMBIT from "../assets/HVAMBIT.jpeg";
+import HvamBit from "../assets/HVAMBIT.jpeg";
 import MagicalMelghat from "../assets/Melghat.png";
 import Roomyys from "../assets/Roomyys.png";
 import infoverce from "../assets/infoversetech.png";
@@ -78,11 +78,63 @@ const data = {
       },
     ],
     projects: [
+      // {
+      //   id: "project-7",
+      //   name: "logsday",
+      //   link: "https://www.logsday.com/",
+      //   image: infoverce,
+      //   description:
+      //     "A crypto platform offering wallet, trading, NFT, and crypto payment escrow services.",
+      //   descriptionLong:
+      //     "Developed a blockchain-based platform using React.js, integrating a prebuilt client-provided theme while building a scalable, reusable component structure. Designed and implemented admin and super admin panels from scratch in collaboration with backend engineers. Gained first-hand experience in blockchain technology, integrating smart contracts for secure frontend–backend interactions.",
+      //   technologies: [
+      //     "React.js",
+      //     "HTML/HTML5",
+      //     "CSS/CSS3",
+      //     "React-Bootstrap",
+      //     "JavaScript",
+      //     "Bootstrap",
+      //     "Git",
+      //     "GitHub",
+      //   ],
+      //   progressDetail: [
+      //     {
+      //       title: "client",
+      //       subTitle: "infoversetech",
+      //     },
+      //     {
+      //       title: "Duration",
+      //       subTitle: "Sep 2022 - Feb 2023",
+      //     },
+      //     {
+      //       title: "industry",
+      //       subTitle: "Banking / Blockchain",
+      //     },
+      //     {
+      //       title: "Working with",
+      //       subTitle: "infoversetech",
+      //     },
+      //   ],
+      //   roleAndResponsibility: [
+      //     "The HVAMBIT project was a blockchain-based platform that I developed from scratch using React.js, with a strong focus on component reusability and scalable architecture. While the overall theme and UI were provided by the client in HTML, CSS, Bootstrap, and JS, I was responsible for integrating this prebuilt theme into a dynamic React application, ensuring a smooth, responsive, and maintainable frontend experience.",
+      //     "A significant part of my work involved designing and developing the admin panel and super admin panel from scratch. Since the client did not provide any specific designs for these panels, I collaborated closely with the backend team to define and implement the structure while adhering to the look and feel of the purchased theme. This required creating reusable React components that matched the static design elements, resulting in a consistent and functional user interface.",
+      //     "This project marked my first experience working in the blockchain technology domain, where I collaborated with backend engineers to integrate smart contracts into the platform. This integration ensured secure, efficient, and seamless interaction between the frontend and blockchain-powered backend services.",
+      //     "Throughout the project, my responsibilities included frontend development, UI integration, responsive design implementation, component reusability, and close collaboration with backend engineers to deliver a secure, scalable, and fully functional application.",
+      //   ],
+      //   KeyAchievements: [
+      //     "Successfully built the HVAMBIT project from scratch using React.js with reusable component architecture while integrating a client-provided prebuilt theme.",
+      //     "Developed fully functional admin and super admin panels, creating UI structure from scratch in collaboration with backend engineers.",
+      //     "Gained first-hand experience in blockchain technology, implementing frontend integration for smart contract interactions.",
+      //     "Maintained responsive, scalable, and maintainable frontend architecture while aligning with the client-provided static theme.",
+      //     "Strengthened expertise in frontend integration, collaboration, and blockchain-based project delivery.",
+      //   ],
+      // },
+
       {
         id: "project-1",
         name: "Allied Market Research",
         link: "https://www.alliedmarketresearch.com/reports-store",
-        image: infoverce,
+        image: AlliedMarket,
         description:
           "Leading market research and consulting firm offering syndicated and customized reports.",
         descriptionLong:
@@ -133,6 +185,7 @@ const data = {
           "	Contributed to cross-team collaboration, improving workflows and overall delivery efficiency.",
         ],
       },
+
       {
         id: "project-2",
         name: "Research Dive",
@@ -240,6 +293,7 @@ const data = {
           "Gained first-hand experience using React-Bootstrap for component styling and layout structuring.",
         ],
       },
+
       {
         id: "project-4",
         name: "Magical Melghat",
@@ -286,6 +340,7 @@ const data = {
           "Another highlight was the creation of custom HTML email templates that maintained branding consistency while providing an engaging user experience across different email clients and devices. My collaborative approach with designers and clients also played a key role in achieving a visually appealing yet functional product, aligning technical implementation with business and marketing objectives.",
         ],
       },
+
       {
         id: "project-5",
         name: "ORIO",
@@ -342,10 +397,10 @@ const data = {
       },
 
       {
-        id: "proj-6",
+        id: "project-6",
         name: "HVAMBIT",
         link: "https://www.hvambit.com/",
-        image: infoverce,
+        image: HvamBit,
         description:
           "A crypto platform offering wallet, trading, NFT, and crypto payment escrow services.",
         descriptionLong:
@@ -392,6 +447,7 @@ const data = {
           "Strengthened expertise in frontend integration, collaboration, and blockchain-based project delivery.",
         ],
       },
+
       // {
       //   id: "project-6",
       //   name: "Niranjan Gohane",
