@@ -82,7 +82,7 @@ const data = {
         id: "project-1",
         name: "Allied Market Research",
         link: "https://www.alliedmarketresearch.com/reports-store",
-        image: Allied,
+        image: infoverce,
         description:
           "Leading market research and consulting firm offering syndicated and customized reports.",
         descriptionLong:
@@ -345,7 +345,7 @@ const data = {
         id: "proj-6",
         name: "HVAMBIT",
         link: "https://www.hvambit.com/",
-        image: HVAMBIT,
+        image: infoverce,
         description:
           "A crypto platform offering wallet, trading, NFT, and crypto payment escrow services.",
         descriptionLong:
