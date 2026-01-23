@@ -1,7 +1,7 @@
 import AlliedMarket from "../assets/amr-peview.png";
 import ResearchDive from "../assets/Research-Dive.png";
 import ORIO from "../assets/Orio.png";
-import HvamBit from "../assets/hvambitme.png";
+import hvambitme from "../assets/hvambitme.png";
 import MagicalMelghat from "../assets/Melghat.png";
 import Roomyys from "../assets/Roomyys.png";
 import infoverce from "../assets/infoversetech.png";
@@ -400,7 +400,7 @@ const data = {
         id: "project-6",
         name: "HVAMBIT",
         link: "https://www.hvambit.com/",
-        image: HvamBit,
+        image: hvambitme,
         description:
           "A crypto platform offering wallet, trading, NFT, and crypto payment escrow services.",
         descriptionLong:
