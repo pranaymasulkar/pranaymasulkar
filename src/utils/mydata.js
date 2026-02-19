@@ -524,6 +524,14 @@ const data = {
     ],
     professional_experience: [
       {
+        company: "Freelancer",
+        location: "Pune",
+        duration: "April 2025 – Present",
+        role: "Fullstack Frontend Developer",
+        summary:
+          "Working as an independent Frontend Developer delivering responsive, scalable, and performance-optimized web applications. Built and enhanced user interfaces using React.js and Next.js with a strong focus on clean UI/UX and maintainable architecture. Developed and optimized e-commerce, admin dashboards, and content-driven platforms with SEO-friendly structures and performance tuning. Collaborated directly with clients to gather requirements, propose technical solutions, and deliver features end-to-end while maintaining reusable component systems and mobile-first design. Currently available as an immediate joiner for full-time opportunities.",
+      },
+      {
         company: "Origius System Pvt. Ltd.",
         location: "Pune",
         duration: "Oct 2023 – April 2025",
